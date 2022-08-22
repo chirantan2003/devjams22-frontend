@@ -1,0 +1,27 @@
+.footer{
+    background-color: #202124;
+    color: var(--white);
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.content{
+    margin: auto;
+    padding: 1rem 5rem;
+    line-height: 1rem;
+}
+
+.content h1{
+    line-height: 10rem;
+}
+
+.contact{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.social{
+    padding-top: 4rem;
+    display: flex;
+    gap: 5rem;
+}

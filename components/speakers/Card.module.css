@@ -1,0 +1,36 @@
+.outer{
+    background-color: var(--white);
+    border: 1px solid black;
+    border-radius: 7px;
+    height: 15rem;
+    width: 27rem;
+    padding: 1.5rem;
+}
+
+.inner{
+    display: flex; 
+}
+
+.content h1{
+    font-size: 4rem;
+    font-family: 'Product Sans Medium'; 
+    line-height: 4rem;
+    margin: 0;
+}
+
+.content h2{
+    font-family: 'Product Sans';
+    font-weight: normal;
+    font-style: normal;
+    text-align: top;
+    margin: 0;
+}
+
+.image{
+    border: 1px solid black;
+    border-radius: 100px;
+    height: 7rem;
+    width: 10rem;
+    margin-right: 0.5rem;
+}
+

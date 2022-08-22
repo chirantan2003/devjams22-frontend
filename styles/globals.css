@@ -1,9 +1,49 @@
+:root {
+  --white: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url('../fonts/ProductSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "Product Sans";
+  src: url('../fonts/ProductSans-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "Product Sans";
+  src: url('../fonts/ProductSans-Italic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Product Sans Medium";
+  src: url('../fonts/ProductSans-Medium.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url('../fonts/ProductSans-MediumItalic.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 18px;
 }
 
 a {
@@ -20,7 +60,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
   }
 }
