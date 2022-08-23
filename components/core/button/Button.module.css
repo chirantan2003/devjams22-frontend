@@ -1,0 +1,47 @@
+.noselect {
+    user-select: none;
+}
+
+.button {
+	border: none;
+	border-radius: 8px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    margin: 0;
+    padding: 0.60rem 1.5rem ;
+    padding-right: 7rem;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	background: var(--blue);
+}
+
+.button span {
+	transition: 200ms;
+}
+
+.text {
+	color: white;
+    font-family: 'Product Sans';
+    font-size: 1.75rem;
+}
+
+.icon {
+	position: absolute;
+	transform: translateX(11rem);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button:hover {
+    transition: 200ms;
+}
+
+.button:hover .text {
+	color: transparent;
+}
+
+.button:hover .icon {
+	width: 15rem;
+	transform: translateX(0);
+}
