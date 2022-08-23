@@ -78,6 +78,10 @@ a {
   padding: 6rem;
 }
 
+.lightBg h1{
+  color: var(--dark);
+}
+
 h1{
   text-align: center;
   font-family: 'Product Sans';
