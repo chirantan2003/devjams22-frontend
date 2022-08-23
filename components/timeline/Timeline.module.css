@@ -1,0 +1,6 @@
+.outer{
+    background-color: var(--white);
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+}
