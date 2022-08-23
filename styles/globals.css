@@ -1,6 +1,10 @@
 :root {
   --white: #FFFFFF;
   --dark: #202124;
+  --red: #EA4335;
+  --yellow: #FBBC04;
+  --blue: #4285F4;
+  --green: #34A853;
 }
 
 @font-face {
@@ -56,7 +60,16 @@ a {
   box-sizing: border-box;
 }
 
-.speakers {
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 90vh;
+  width: 100%;
+}
+
+.darkBg {
   background-color: var(--dark);
   padding: 2rem;
 }
