@@ -3,6 +3,8 @@
     color: var(--white);
     font-weight: 400;
     margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .content{
@@ -24,4 +26,10 @@
     padding-top: 4rem;
     display: flex;
     gap: 5rem;
+}
+
+.image{
+    margin: auto 0;
+    height: 25rem;
+    width: 25rem;
 }

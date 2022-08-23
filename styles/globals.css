@@ -1,5 +1,6 @@
 :root {
   --white: #FFFFFF;
+  --dark: #202124;
 }
 
 @font-face {
@@ -53,6 +54,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.speakers {
+  background-color: var(--dark);
+  padding: 2rem;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Product Sans';
+  font-weight: normal;
+  font-size: 3rem;
+  color: var(--white);
 }
 
 @media (prefers-color-scheme: dark) {

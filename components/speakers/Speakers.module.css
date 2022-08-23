@@ -1,0 +1,12 @@
+.speakers{
+  display: flex;
+  gap: auto;
+  padding: 2rem;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
