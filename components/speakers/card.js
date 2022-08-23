@@ -7,7 +7,7 @@ const Cards = (props) => {
       <Introducing color={props.color} />
       <div className={styles.inner}>
         <div className={styles.content}>
-          <h1>Sundar Pichai</h1>
+          <h1>{props.name}</h1>
           <h2>he/him</h2>
         </div>
         <div className={styles.image}></div>

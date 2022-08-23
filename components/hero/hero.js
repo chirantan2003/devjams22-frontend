@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "../core/button/button";
 import styles from "./Hero.module.css";
 
@@ -5,17 +6,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className={styles.text}>
-        <h1>
-          <span className={styles.red}>D</span>
-          <span className={styles.blue}>e</span>
-          <span className={styles.yellow}>v</span>
-          <span className={styles.green}>J</span>
-          <span className={styles.blue}>a</span>
-          <span className={styles.red}>m</span>
-          <span className={styles.yellow}>s</span>
-          <span className={styles.green}> &#8217; </span>
-          <span className={styles.blue}>2 2</span>
-        </h1>
+        <Image src={"/devjams.svg"} height="150" width="500" alt="Devjams22" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           lacinia condimentum suscipit. Proin facilisis vulputate urna vitae

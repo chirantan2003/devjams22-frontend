@@ -8,8 +8,9 @@ const Button = () => {
       <span className={styles.icon}>
         <Image
           src={"/arrow.svg"}
-          width="80"
-          height="60"
+          className={styles.img}
+          width={80}
+          height={60}
           viewBox="0 0 24 24"
           alt="arrow"
         />

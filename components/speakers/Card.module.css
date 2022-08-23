@@ -2,13 +2,14 @@
     background-color: var(--white);
     border: 1px solid black;
     border-radius: 7px;
-    height: 15rem;
-    width: 27rem;
+    max-height: 15rem;
+    max-width: 27rem;
     padding: 1.5rem;
 }
 
 .inner{
     display: flex; 
+    flex-wrap: wrap;
 }
 
 .content h1{
@@ -32,7 +33,7 @@
     border: 1px solid black;
     border-radius: 100px;
     height: 7rem;
-    width: 10rem;
+    width: 7rem;
     margin-right: 0.5rem;
 }
 
