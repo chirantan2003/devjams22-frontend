@@ -12,7 +12,7 @@
     margin-bottom: 2rem;
 }
 
-.nav_right{
+.navRight{
 	display: flex;
 	text-decoration: none;
 	align-items: center;
@@ -20,15 +20,15 @@
 	flex-wrap: wrap;
 }
 
-.nav_item{
+.navItem{
 	text-decoration: none;
 	list-style: none;
 	padding: 0 0.5rem;
-	color: black;
+	color: var(--dark);
 }
 
-.nav_item:hover{
-	color: var(--purple);
+.navItem:hover{
+	color: var(--blue);
 	text-decoration: underline;
 	text-underline-offset: 1.5rem;
 	text-decoration-thickness: 0.25rem ;

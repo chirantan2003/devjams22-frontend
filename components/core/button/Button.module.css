@@ -7,12 +7,13 @@
 	border-radius: 8px;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
     margin: 0;
-    padding: 0.60rem 1.5rem ;
-    padding-right: 7rem;
+    padding: 0.60% 1.5% ;
+    padding-right: 17%;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
 	background: var(--blue);
+	flex-wrap: wrap;
 }
 
 .button span {
@@ -26,8 +27,9 @@
 }
 
 .icon {
+	width: 10rem;
 	position: absolute;
-	transform: translateX(11rem);
+	transform: translateX(90%);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -42,6 +44,10 @@
 }
 
 .button:hover .icon {
-	width: 15rem;
+	width: 20%;
 	transform: translateX(0);
+}
+
+.img {
+	max-width: auto;
 }

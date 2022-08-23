@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className={styles.image}>
+      {/* <div className={styles.image}>
         <Image
           src={"/footer.svg"}
           layout="responsive"
@@ -88,7 +88,7 @@ const Footer = () => {
           width="1040"
           alt="footer"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -6,35 +6,35 @@ const Navbar = () => {
     <div className={styles.nav}>
       <Image
         src={"/logo.svg"}
-        height="25"
-        width="25"
+        height="1"
+        width="250"
         alt="logo"
         className={styles.logo}
       />
-      <ul className={styles.nav_right}>
-        <a href="#" className={styles.nav_item}>
+      <ul className={styles.navRight}>
+        <a href="#" className={styles.navItem}>
           {" "}
-          <li className={styles.nav_item}>Home</li>
+          <li className={styles.navItem}>Home</li>
         </a>
-        <a href="#" className={styles.nav_item}>
+        <a href="#" className={styles.navItem}>
           {" "}
-          <li className={styles.nav_item}>About DSC</li>
+          <li className={styles.navItem}>About DSC</li>
         </a>
-        <a href="#" className={styles.nav_item}>
+        <a href="#" className={styles.navItem}>
           {" "}
-          <li className={styles.nav_item}>Timeline</li>
+          <li className={styles.navItem}>Timeline</li>
         </a>
-        <a href="#" className={styles.nav_item}>
+        <a href="#" className={styles.navItem}>
           {" "}
-          <li className={styles.nav_item}>FAQs</li>
+          <li className={styles.navItem}>FAQs</li>
         </a>
-        <a href="#" className={styles.nav_item}>
+        <a href="#" className={styles.navItem}>
           {" "}
-          <li className={styles.nav_item}>Sponsors</li>
+          <li className={styles.navItem}>Sponsors</li>
         </a>
-        <a href="#" className={styles.nav_item}>
+        <a href="Sponsors" className={styles.navItem}>
           {" "}
-          <li className={styles.nav_item}>Contacts</li>
+          <li className={styles.navItem}>Contacts</li>
         </a>
       </ul>
     </div>
