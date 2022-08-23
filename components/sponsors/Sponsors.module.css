@@ -1,0 +1,10 @@
+.outer{
+    padding: 5rem 5rem ;
+}
+
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8rem;
+}
