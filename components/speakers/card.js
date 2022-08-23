@@ -1,10 +1,10 @@
 import Introducing from "../core/button/introducing";
 import styles from "./Card.module.css";
 
-const Cards = () => {
+const Cards = (props) => {
   return (
     <div className={styles.outer}>
-      <Introducing color="#FBBC04" />
+      <Introducing color={props.color} />
       <div className={styles.inner}>
         <div className={styles.content}>
           <h1>Sundar Pichai</h1>
