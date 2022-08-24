@@ -109,6 +109,7 @@ a {
 }
 
 .lightbg h1 {
+  /* stylelint-disable no-descending-specificity */
   color: var(--dark);
 }
 
