@@ -1,21 +1,36 @@
 .footer {
-  background-color: #202124;
-  color: var(--white);
-  font-weight: 400;
-  margin-top: 2rem;
   display: flex;
   justify-content: space-evenly;
 }
 
 .content {
   margin: auto;
-  padding: 1rem 5rem;
-  line-height: 1rem;
+  padding: 0.5rem 5rem;
+  line-height: 0.8rem;
 }
 
 .content h1 {
+  font-family: "Product Sans", sans-serif;
   text-align: left;
-  line-height: 5rem;
+  line-height: 7rem;
+}
+
+.content h2 {
+  font-family: "Work Sans Medium", sans-serif;
+  font-size: 1.75rem;
+}
+
+.content h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.content h4 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 0.2rem;
 }
 
 .contact {
@@ -27,7 +42,7 @@
 .social {
   padding-top: 2rem;
   display: flex;
-  gap: 5rem;
+  gap: 3.5rem;
 }
 
 .image {
