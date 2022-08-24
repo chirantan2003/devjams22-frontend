@@ -1,35 +1,37 @@
-.footer{
-    background-color: #202124;
-    color: var(--white);
-    font-weight: 400;
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-evenly;
+.footer {
+  background-color: #202124;
+  color: var(--white);
+  font-weight: 400;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.content{
-    margin: auto;
-    padding: 1rem 5rem;
-    line-height: 1rem;
+.content {
+  margin: auto;
+  padding: 1rem 5rem;
+  line-height: 1rem;
 }
 
-.content h1{
-    line-height: 10rem;
+.content h1 {
+  text-align: left;
+  line-height: 5rem;
 }
 
-.contact{
-    display: flex;
-    gap: 0.5rem;
+.contact {
+  display: flex;
+  gap: 0.5rem;
+  line-height: 0.5rem;
 }
 
-.social{
-    padding-top: 4rem;
-    display: flex;
-    gap: 5rem;
+.social {
+  padding-top: 2rem;
+  display: flex;
+  gap: 5rem;
 }
 
-.image{
-    margin: auto 0;
-    height: 25rem;
-    width: 25rem;
+.image {
+  margin: auto 0;
+  height: 25rem;
+  width: 25rem;
 }

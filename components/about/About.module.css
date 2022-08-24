@@ -1,41 +1,46 @@
-.outer{
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 4rem;
+.outer {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem;
 }
 
-.text{
-    background-color: var(--white);
-    max-width: 50vw;
-    padding: 2rem;
-    height: 60vh;
+.text {
+  background-color: var(--white);
+  max-width: 50vw;
+  padding: 2rem;
+  min-height: 60vh;
 }
 
-.text h2{
-    font-family: 'Product Sans Medium';
-    font-size: 2rem;
-    color: var(--dark);
+.text h2 {
+  font-family: "Product Sans Medium";
+  font-size: 2rem;
+  color: var(--dark);
 }
 
-.text p{
-    text-align: justify;
-    max-width: 70%;
-    color: var(--dark);
+.text p {
+  text-align: justify;
+  max-width: 90%;
+  color: var(--dark);
+  line-height: 130%;
 }
 
-.right{
-    text-align: right;
+.right {
+  text-align: right;
 }
 
-.right p{
-    float: right;
-    text-align: right;
+.right p {
+  float: right;
+  text-align: right;
 }
 
-.img{
-    background-color: #F2B3B9;
-    position: relative;
-    border-radius: 8px;
-    width: 40vw;
-    height: 60vh;
+.img {
+  background-color: #f2b3b9;
+  position: relative;
+  border-radius: 8px;
+  width: 40vw;
+  min-height: 60vh;
+}
+
+.vit {
+  background-color: #fbbc04;
 }
