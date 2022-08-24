@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Introducing from '../core/button/Introducing'
 import styles from './Card.module.css'
 
@@ -11,7 +12,14 @@ const Cards = (props) => {
           <h2>{props.refer}</h2>
         </div>
         <div>
-          <div className={styles.image} />
+          <div className={styles.image}>
+            <Image
+              src={props.img}
+              layout='fill'
+              objectFit='contain'
+              alt={props.name}
+            />
+          </div>
         </div>
       </div>
     </div>

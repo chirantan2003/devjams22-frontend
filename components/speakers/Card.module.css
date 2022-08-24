@@ -2,14 +2,19 @@
   background-color: var(--white);
   border: 1px solid black;
   border-radius: 7px;
-  height: 15rem;
-  width: 27rem;
+  min-height: 15rem;
+  width: 30rem;
   padding: 1.5rem;
 }
 
 .inner {
   display: flex;
   justify-content: space-between;
+}
+
+.content {
+  max-width: 65%;
+  overflow-wrap: break-word;
 }
 
 .content h1 {
@@ -25,13 +30,15 @@
   font-family: "Product Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
-  text-align: top;
+  margin-bottom: 0;
   margin-top: 0.5rem;
 }
 
 .image {
-  border: 1px solid black;
   border-radius: 50%;
-  height: 7rem;
-  width: 7em;
+  position: relative;
+  overflow: hidden;
+  height: 9rem;
+  width: 9rem;
+  margin-top: -1rem;
 }
