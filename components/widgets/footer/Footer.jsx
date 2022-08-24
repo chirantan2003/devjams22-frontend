@@ -1,5 +1,5 @@
-import Image from "next/Image";
-import Link from "next/Link";
+import Image from "next/image";
+import Link from "next/link";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
@@ -11,24 +11,23 @@ const Footer = () => {
           <h2>Chanakya Kapoor</h2>
           <h3>Point of Contact</h3>
           <div className={styles.contact}>
-            <Image src={"/mail.svg"} height="25" width="25" alt="mail" />
+            <Image src="/mail.svg" height="25" width="25" alt="mail" />
             <h4>chanakyavkapoor@gmail.com</h4>
           </div>
           <div className={styles.contact}>
-            <Image src={"/phone.svg"} height="25" width="25" alt="phone" />
+            <Image src="/phone.svg" height="25" width="25" alt="phone" />
             <h4>+918130488585</h4>
           </div>
         </div>
-
         <div className={styles.content}>
           <h2>Shresth Tiwary</h2>
           <h3>Point of Contact</h3>
           <div className={styles.contact}>
-            <Image src={"/mail.svg"} height="25" width="25" alt="mail" />
+            <Image src="/mail.svg" height="25" width="25" alt="mail" />
             <h4>shresthtiwary11@gmail.com</h4>
           </div>
           <div className={styles.contact}>
-            <Image src={"/phone.svg"} height="25" width="25" alt="phone" />
+            <Image src="/phone.svg" height="25" width="25" alt="phone" />
             <h4>+919742940667</h4>
           </div>
 
@@ -36,7 +35,7 @@ const Footer = () => {
             <Link href="/">
               <a>
                 <Image
-                  src={"/instagram.svg"}
+                  src="/instagram.svg"
                   height="40"
                   width="40"
                   alt="instagram"
@@ -47,7 +46,7 @@ const Footer = () => {
             <Link href="/">
               <a>
                 <Image
-                  src={"/twitter.svg"}
+                  src="/twitter.svg"
                   height="40"
                   width="40"
                   alt="twitter"
@@ -58,7 +57,7 @@ const Footer = () => {
             <Link href="/">
               <a>
                 <Image
-                  src={"/linkedin.svg"}
+                  src="/linkedin.svg"
                   height="40"
                   width="40"
                   alt="linkedin"
@@ -69,7 +68,7 @@ const Footer = () => {
             <Link href="/">
               <a>
                 <Image
-                  src={"/facebook.svg"}
+                  src="/facebook.svg"
                   height="40"
                   width="40"
                   alt="facebook"
@@ -79,16 +78,15 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className={styles.image}>
+      <div className={styles.image}>
         <Image
-          src={"/footer.svg"}
+          src="/footer.svg"
           layout="responsive"
           height="1040"
           width="1040"
           alt="footer"
         />
-      </div> */}
+      </div>
     </div>
   );
 };

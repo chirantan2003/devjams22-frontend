@@ -1,52 +1,73 @@
 :root {
-  --white: #FFFFFF;
+  --white: #fff;
   --dark: #202124;
-  --red: #EA4335;
-  --yellow: #FBBC04;
-  --blue: #4285F4;
-  --green: #34A853;
+  --red: #ea4335;
+  --yellow: #fbbc04;
+  --blue: #4285f4;
+  --green: #34a853;
 }
 
 @font-face {
   font-family: "Product Sans";
-  src: url('../fonts/ProductSans-Regular.ttf');
+  src: url("../public/fonts/ProductSans-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
-  
+
 @font-face {
   font-family: "Product Sans";
-  src: url('../fonts/ProductSans-Bold.ttf');
+  src: url("../public/fonts/ProductSans-Bold.ttf");
   font-weight: bold;
   font-style: normal;
 }
-  
+
 @font-face {
   font-family: "Product Sans";
-  src: url('../fonts/ProductSans-Italic.ttf');
+  src: url("../public/fonts/ProductSans-Italic.ttf");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Product Sans Medium";
-  src: url('../fonts/ProductSans-Medium.ttf');
+  src: url("../public/fonts/ProductSans-Medium.ttf");
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Product Sans";
-  src: url('../fonts/ProductSans-MediumItalic.ttf');
+  src: url("../public/fonts/ProductSans-MediumItalic.ttf");
   font-weight: bold;
   font-style: italic;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../public/fonts/WorkSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../public/fonts/WorkSans-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans Medium";
+  src: url("../public/fonts/WorkSans-Medium.ttf");
+  font-weight: bold;
+  font-style: normal;
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Product Sans';
+  font-family: "Product Sans";
   font-size: 18px;
 }
 
@@ -59,7 +80,7 @@ a {
   box-sizing: border-box;
 }
 
-.hero{
+.hero {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,30 +91,46 @@ a {
 
 .darkBg {
   background-color: var(--dark);
+  height: 100vh;
   padding: 2rem;
 }
 
-.lightBg{
-  background-color: #F5F5F7;
+.lightBg {
+  background-color: #f5f5f7;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.about{
+  background-color: #f5f5f7;
   padding: 6rem;
 }
 
-.lightBg h1{
+.sponsors {
+  background-color: #f0c14b;
+}
+
+.lightBg h1 {
   color: var(--dark);
 }
 
-h1{
+h1 {
   text-align: center;
-  font-family: 'Product Sans';
+  font-family: "Product Sans";
   font-weight: normal;
   font-size: 3rem;
   color: var(--white);
+}
+
+p {
+  font-family: "Work Sans";
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+
   body {
     color: black;
     background: white;

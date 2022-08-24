@@ -1,53 +1,25 @@
 .noselect {
-    user-select: none;
+  user-select: none;
 }
 
 .button {
-	border: none;
-	border-radius: 8px;
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
-    margin: 0;
-    padding: 0.60% 1.5% ;
-    padding-right: 17%;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	background: var(--blue);
-	flex-wrap: wrap;
-}
-
-.button span {
-	transition: 200ms;
-}
-
-.text {
-	color: white;
-    font-family: 'Product Sans';
-    font-size: 1.75rem;
-}
-
-.icon {
-	width: 10rem;
-	position: absolute;
-	transform: translateX(90%);
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  background-color: var(--blue);
+  border: none;
+  border-radius: 8px;
+  color: var(--white);
+  font-family: "Product Sans";
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  padding: 0.5rem 3rem;
+  right: 2rem;
+  bottom: 1rem;
+  cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 .button:hover {
-    transition: 200ms;
-}
-
-.button:hover .text {
-	color: transparent;
-}
-
-.button:hover .icon {
-	width: 20%;
-	transform: translateX(0);
-}
-
-.img {
-	max-width: auto;
+  box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
 }
