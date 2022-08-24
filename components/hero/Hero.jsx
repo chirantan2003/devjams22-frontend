@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Button from '../core/button/button'
+import Button from '../core/button/Button'
 import styles from './Hero.module.css'
 
 const Hero = () => {

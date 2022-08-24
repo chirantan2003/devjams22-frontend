@@ -1,4 +1,4 @@
-import Introducing from '../core/button/introducing'
+import Introducing from '../core/button/Introducing'
 import styles from './Card.module.css'
 
 const Cards = (props) => {
