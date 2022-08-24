@@ -1,9 +1,9 @@
-import styles from "./About.module.css";
-import Image from "next/image";
+import styles from './About.module.css'
+import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className="about">
+    <div className='about'>
       <div className={styles.outer}>
         <div className={styles.text}>
           <h2>About DevJams&rsquo;22</h2>
@@ -21,10 +21,10 @@ const About = () => {
         </div>
         <div className={styles.img}>
           <Image
-            src="/aboutRight.svg"
-            layout="fill"
-            objectFit="contain"
-            alt="imgRight"
+            src='/aboutRight.svg'
+            layout='fill'
+            objectFit='contain'
+            alt='imgRight'
           />
         </div>
       </div>
@@ -32,10 +32,10 @@ const About = () => {
       <div className={styles.outer}>
         <div className={`${styles.img} ${styles.vit}`}>
           <Image
-            src="/aboutVit.svg"
-            layout="fill"
-            objectFit="contain"
-            alt="imgRight"
+            src='/aboutVit.svg'
+            layout='fill'
+            objectFit='contain'
+            alt='imgRight'
           />
         </div>
         <div className={`${styles.text} ${styles.right}`}>
@@ -51,7 +51,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
