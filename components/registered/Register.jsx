@@ -1,11 +1,11 @@
-import styles from "./Register.module.css";
+import styles from './Register.module.css'
 
 const Register = () => {
   return (
-    <div className="register">
-      <div className={styles.content}></div>
+    <div className='register'>
+      <div className={styles.content} />
     </div>
-  );
-};
+  )
+}
 
-export default Register;
+export default Register

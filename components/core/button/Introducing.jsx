@@ -1,6 +1,6 @@
 const Introducing = (props) => {
   return (
-    <div className="outer">
+    <div className='outer'>
       <p>Introducing</p>
       <style jsx>
         {`
@@ -19,7 +19,7 @@ const Introducing = (props) => {
         `}
       </style>
     </div>
-  );
-};
+  )
+}
 
-export default Introducing;
+export default Introducing
