@@ -10,7 +10,9 @@ const Cards = (props) => {
           <h1>{props.name}</h1>
           <h2>{props.refer}</h2>
         </div>
-        <div className={styles.image} />
+        <div>
+          <div className={styles.image} />
+        </div>
       </div>
     </div>
   )
