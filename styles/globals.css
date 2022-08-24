@@ -67,7 +67,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Product Sans";
+  font-family: "Product Sans", sans-serif;
   font-size: 18px;
 }
 
@@ -89,17 +89,17 @@ a {
   width: 100%;
 }
 
-.darkBg {
+.darkbg {
   background-color: var(--dark);
   padding: 2rem;
 }
 
-.lightBg {
+.lightbg {
   background-color: #f5f5f7;
   padding: 2rem;
 }
 
-.about{
+.about {
   background-color: #f5f5f7;
   padding: 6rem;
 }
@@ -108,20 +108,21 @@ a {
   background-color: #f0c14b;
 }
 
-.lightBg h1 {
+.lightbg h1 {
+  /* stylelint-disable no-descending-specificity */
   color: var(--dark);
 }
 
 h1 {
   text-align: center;
-  font-family: "Product Sans";
+  font-family: "Product Sans", sans-serif;
   font-weight: normal;
   font-size: 3rem;
   color: var(--white);
 }
 
 p {
-  font-family: "Work Sans";
+  font-family: "Work Sans", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

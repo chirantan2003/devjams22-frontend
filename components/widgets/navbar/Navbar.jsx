@@ -1,44 +1,44 @@
-import Image from 'next/image'
-import styles from './Navbar.module.css'
+import Image from "next/image";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
     <div className={styles.nav}>
       <Image
-        src='/logo.svg'
-        height='1'
-        width='250'
-        alt='logo'
+        src="/logo.svg"
+        height="1"
+        width="250"
+        alt="logo"
         className={styles.logo}
       />
-      <ul className={styles.navRight}>
-        <a href='#' className={styles.navItem}>
-          {' '}
-          <li className={styles.navItem}>Home</li>
+      <ul className={styles.navright}>
+        <a href="#" className={styles.navitem}>
+          {" "}
+          <li className={styles.navitem}>Home</li>
         </a>
-        <a href='#' className={styles.navItem}>
-          {' '}
-          <li className={styles.navItem}>About GDSC</li>
+        <a href="#" className={styles.navitem}>
+          {" "}
+          <li className={styles.navitem}>About GDSC</li>
         </a>
-        <a href='#' className={styles.navItem}>
-          {' '}
-          <li className={styles.navItem}>Timeline</li>
+        <a href="#" className={styles.navitem}>
+          {" "}
+          <li className={styles.navitem}>Timeline</li>
         </a>
-        <a href='#' className={styles.navItem}>
-          {' '}
-          <li className={styles.navItem}>FAQs</li>
+        <a href="#" className={styles.navitem}>
+          {" "}
+          <li className={styles.navitem}>FAQs</li>
         </a>
-        <a href='#' className={styles.navItem}>
-          {' '}
-          <li className={styles.navItem}>Sponsors</li>
+        <a href="#" className={styles.navitem}>
+          {" "}
+          <li className={styles.navitem}>Sponsors</li>
         </a>
-        <a href='Sponsors' className={styles.navItem}>
-          {' '}
-          <li className={styles.navItem}>Contacts</li>
+        <a href="Sponsors" className={styles.navitem}>
+          {" "}
+          <li className={styles.navitem}>Contacts</li>
         </a>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -12,7 +12,7 @@
 }
 
 .text h2 {
-  font-family: "Product Sans Medium";
+  font-family: "Product Sans Medium", sans-serif;
   font-size: 2rem;
   color: var(--dark);
 }
