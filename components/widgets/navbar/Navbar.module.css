@@ -12,7 +12,7 @@
   margin-bottom: 2rem;
 }
 
-.navRight {
+.navright {
   display: flex;
   text-decoration: none;
   align-items: center;
@@ -20,14 +20,14 @@
   flex-wrap: wrap;
 }
 
-.navItem {
+.navitem {
   text-decoration: none;
   list-style: none;
   padding: 0 0.5rem;
   color: var(--dark);
 }
 
-.navItem:hover {
+.navitem:hover {
   color: var(--blue);
   text-decoration: underline;
   text-underline-offset: 1.5rem;

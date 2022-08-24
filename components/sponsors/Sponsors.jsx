@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Sponsors = () => {
   return (
-    <div className='lightBg sponsors'>
+    <div className='lightbg sponsors'>
       <h1>Past Sponsors</h1>
       <div className={styles.outer}>
         <div className={styles.img}>

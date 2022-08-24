@@ -11,30 +11,30 @@ const Navbar = () => {
         alt='logo'
         className={styles.logo}
       />
-      <ul className={styles.navRight}>
-        <a href='#' className={styles.navItem}>
+      <ul className={styles.navright}>
+        <a href='#' className={styles.navitem}>
           {' '}
-          <li className={styles.navItem}>Home</li>
+          <li className={styles.navitem}>Home</li>
         </a>
-        <a href='#' className={styles.navItem}>
+        <a href='#' className={styles.navitem}>
           {' '}
-          <li className={styles.navItem}>About GDSC</li>
+          <li className={styles.navitem}>About GDSC</li>
         </a>
-        <a href='#' className={styles.navItem}>
+        <a href='#' className={styles.navitem}>
           {' '}
-          <li className={styles.navItem}>Timeline</li>
+          <li className={styles.navitem}>Timeline</li>
         </a>
-        <a href='#' className={styles.navItem}>
+        <a href='#' className={styles.navitem}>
           {' '}
-          <li className={styles.navItem}>FAQs</li>
+          <li className={styles.navitem}>FAQs</li>
         </a>
-        <a href='#' className={styles.navItem}>
+        <a href='#' className={styles.navitem}>
           {' '}
-          <li className={styles.navItem}>Sponsors</li>
+          <li className={styles.navitem}>Sponsors</li>
         </a>
-        <a href='Sponsors' className={styles.navItem}>
+        <a href='Sponsors' className={styles.navitem}>
           {' '}
-          <li className={styles.navItem}>Contacts</li>
+          <li className={styles.navitem}>Contacts</li>
         </a>
       </ul>
     </div>

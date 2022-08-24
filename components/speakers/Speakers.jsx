@@ -3,7 +3,7 @@ import styles from './Speakers.module.css'
 
 const Speakers = () => {
   return (
-    <div className='darkBg'>
+    <div className='darkbg'>
       <h1>Past Speakers</h1>
       <div className={styles.speakers}>
         <div className={styles.cards}>
