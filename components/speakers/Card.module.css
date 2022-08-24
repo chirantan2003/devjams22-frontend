@@ -2,22 +2,23 @@
   background-color: var(--white);
   border: 1px solid black;
   border-radius: 7px;
-  height: 11rem;
-  width: 22rem;
+  height: 15rem;
+  width: 27rem;
   padding: 1.5rem;
 }
 
 .inner {
   display: flex;
+  justify-content: space-between;
 }
 
 .content h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-family: "Product Sans Medium";
   color: black;
   text-align: left;
-  max-width: 70%;
-  line-height: 2rem;
+  /* max-width: 70%; */
+  line-height: 3.5rem;
   margin: 0;
 }
 
@@ -26,12 +27,12 @@
   font-weight: normal;
   font-style: normal;
   text-align: top;
-  margin: 0;
+  margin-top: 0.5rem;
 }
 
 .image {
   border: 1px solid black;
-  border-radius: 100px;
-  height: 5rem;
-  width: 5rem;
+  border-radius: 50%;
+  height: 7rem;
+  width: 7em;
 }

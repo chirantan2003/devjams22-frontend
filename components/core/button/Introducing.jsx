@@ -1,7 +1,7 @@
 const Introducing = (props) => {
   return (
     <div className='outer'>
-      <p>Introducing</p>
+      <p style={{ fontFamily: 'Product Sans' }}>Introducing</p>
       <style jsx>
         {`
           .outer {

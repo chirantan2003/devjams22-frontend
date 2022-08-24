@@ -15,6 +15,8 @@ const Sponsors = () => {
           <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
           <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
           <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
         </div>
       </div>
     </div>

@@ -9,56 +9,56 @@
 
 @font-face {
   font-family: "Product Sans";
-  src: url("../public/fonts/ProductSans-Regular.ttf");
+  src: url("/fonts/ProductSans-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Product Sans";
-  src: url("../public/fonts/ProductSans-Bold.ttf");
+  src: url("/fonts/ProductSans-Bold.ttf");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Product Sans";
-  src: url("../public/fonts/ProductSans-Italic.ttf");
+  src: url("/fonts/ProductSans-Italic.ttf");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
+  src: url("/fonts/ProductSans-Medium.ttf");
   font-family: "Product Sans Medium";
-  src: url("../public/fonts/ProductSans-Medium.ttf");
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Product Sans";
-  src: url("../public/fonts/ProductSans-MediumItalic.ttf");
+  src: url("/fonts/ProductSans-MediumItalic.ttf");
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Work Sans";
-  src: url("../public/fonts/WorkSans-Regular.ttf");
+  src: url("/fonts/WorkSans-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Work Sans";
-  src: url("../public/fonts/WorkSans-Bold.ttf");
+  src: url("/fonts/WorkSans-Bold.ttf");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Work Sans Medium";
-  src: url("../public/fonts/WorkSans-Medium.ttf");
+  src: url("/fonts/WorkSans-Medium.ttf");
   font-weight: bold;
   font-style: normal;
 }
@@ -91,13 +91,11 @@ a {
 
 .darkBg {
   background-color: var(--dark);
-  height: 100vh;
   padding: 2rem;
 }
 
 .lightBg {
   background-color: #f5f5f7;
-  height: 100vh;
   padding: 2rem;
 }
 
