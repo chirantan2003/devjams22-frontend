@@ -9,7 +9,7 @@ const Cards = (props) => {
       <div className={styles.inner}>
         <div className={styles.content}>
           <h1>{props.name}</h1>
-          <h2>{props.refer}</h2>
+          <h3>{props.refer}</h3>
         </div>
         <div>
           <div className={styles.image}>

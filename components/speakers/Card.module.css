@@ -26,8 +26,9 @@
   margin: 0;
 }
 
-.content h2 {
+.content h3 {
   font-family: "Product Sans", sans-serif;
+  font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
   margin-bottom: 0;

@@ -6,6 +6,7 @@ import Hero from '../components/hero/Hero'
 import Sponsors from '../components/sponsors/Sponsors'
 import About from '../components/about/About'
 import Timeline from '../components/timeline/Timeline'
+import Register from '../components/register/Register'
 
 export default function Home () {
   return (
@@ -17,6 +18,7 @@ export default function Home () {
         <Speakers />
         <Timeline />
         <Sponsors />
+        <Register />
       </div>
       <Footer />
     </>

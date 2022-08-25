@@ -11,12 +11,6 @@
   min-height: 60vh;
 }
 
-.text h2 {
-  font-family: "Product Sans Medium", sans-serif;
-  font-size: 2rem;
-  color: var(--dark);
-}
-
 .text p {
   text-align: justify;
   max-width: 90%;
