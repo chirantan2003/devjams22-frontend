@@ -18,7 +18,7 @@
   font-size: 1rem;
   font-family: "Product Sans", sans-serif;
   font-weight: bold;
-  color: black;
+  color: black !important;
   line-height: 0.02rem;
   margin-top: 0;
   padding: 0 0.7rem;
@@ -44,6 +44,7 @@
   max-width: 90%;
   color: var(--textdark);
   line-height: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .right {
