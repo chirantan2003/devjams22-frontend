@@ -144,12 +144,13 @@ a {
   background-color: #202124;
   font-weight: 400;
   color: var(--white);
-  min-height: 100vh;
+  height: 100vh;
   padding-bottom: 0.5rem;
 }
 
 .footer p {
   text-align: center;
+  font-family: "Product Sans", sans-serif !important;
 }
 
 .footer span {
