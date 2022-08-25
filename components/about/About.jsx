@@ -60,7 +60,13 @@ const About = () => {
           managers who work together to bring about collaborative results that
           better the lives of everyone around us.
         </p>
-        <Image src='/GDSC.svg' height='325' width='1200' alt='GDSC' />
+        <Image
+          src='/GDSC.svg'
+          layout='responsive'
+          width='1100'
+          height='300'
+          alt='GDSC'
+        />
       </div>
     </div>
   )
