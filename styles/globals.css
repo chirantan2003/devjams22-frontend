@@ -101,6 +101,11 @@ a {
   padding: 4rem;
 }
 
+.lightbg h1 {
+  /* stylelint-disable no-descending-specificity */
+  color: var(--dark);
+}
+
 .about {
   background-color: #f5f5f7;
   padding: 6rem;
@@ -109,11 +114,6 @@ a {
 
 .sponsors {
   background-color: #f0c14b;
-}
-
-.lightbg h1 {
-  /* stylelint-disable no-descending-specificity */
-  color: var(--dark);
 }
 
 .titleIcon {

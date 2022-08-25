@@ -22,7 +22,7 @@
   text-align: justify;
   max-width: 90%;
   color: var(--textdark);
-  line-height: 130%;
+  line-height: 1.5rem;
 }
 
 .right {
