@@ -63,7 +63,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className={styles.gdsc}>
+      <div className={styles.gdsc} id='gdsc'>
         <h2>About GDSC</h2>
         <p>
           GDSC VIT powered by Google Developers is a student community at VIT,

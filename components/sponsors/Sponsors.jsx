@@ -4,7 +4,7 @@ import ImageDiv from './ImageDiv'
 
 const Sponsors = () => {
   return (
-    <div className='lightbg sponsors'>
+    <div className='lightbg sponsors' id='sponsors'>
       <TitleIcon title='Past Sponsors' img='/sponsors.svg' />
       <div className={styles.outer}>
         <div className={styles.img}>

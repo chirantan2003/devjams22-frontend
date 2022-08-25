@@ -3,7 +3,7 @@ import TitleIcon from '../core/TitleIcon'
 
 const Timeline = () => {
   return (
-    <div className='lightbg'>
+    <div className='lightbg' id='timeline'>
       <TitleIcon title='Timeline' img='/timeline.svg' />
       <div className={styles.outer} />
     </div>

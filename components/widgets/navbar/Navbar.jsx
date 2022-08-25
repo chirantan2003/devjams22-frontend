@@ -4,23 +4,25 @@ import styles from './Navbar.module.css'
 const Navbar = () => {
   return (
     <div className={styles.nav}>
-      <Image
-        src='/logo.svg'
-        height='1'
-        width='250'
-        alt='logo'
-        className={styles.logo}
-      />
+      <a href='https://dscvit.com/' target='_blank' rel='noreferrer'>
+        <Image
+          src='/logo.svg'
+          height='50'
+          width='250'
+          alt='logo'
+          className={styles.logo}
+        />
+      </a>
       <ul className={styles.navright}>
-        <a href='#' className={styles.navitem}>
+        <a href='#hero' className={styles.navitem}>
           {' '}
           <li className={styles.navitem}>Home</li>
         </a>
-        <a href='#' className={styles.navitem}>
+        <a href='#gdsc' className={styles.navitem}>
           {' '}
           <li className={styles.navitem}>About GDSC</li>
         </a>
-        <a href='#' className={styles.navitem}>
+        <a href='#timeline' className={styles.navitem}>
           {' '}
           <li className={styles.navitem}>Timeline</li>
         </a>
@@ -28,11 +30,11 @@ const Navbar = () => {
           {' '}
           <li className={styles.navitem}>FAQs</li>
         </a>
-        <a href='#' className={styles.navitem}>
+        <a href='#sponsors' className={styles.navitem}>
           {' '}
           <li className={styles.navitem}>Sponsors</li>
         </a>
-        <a href='Sponsors' className={styles.navitem}>
+        <a href='#contacts' className={styles.navitem}>
           {' '}
           <li className={styles.navitem}>Contacts</li>
         </a>
