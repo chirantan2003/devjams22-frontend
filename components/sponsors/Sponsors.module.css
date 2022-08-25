@@ -16,4 +16,22 @@
   position: relative;
   height: 9rem;
   width: 9rem;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  box-shadow:
+    0 1px 1px rgb(0 0 0 / 5%),
+    0 2px 2px rgb(0 0 0 / 5%),
+    0 4px 4px rgb(0 0 0 / 5%),
+    0 6px 8px rgb(0 0 0 / 5%),
+    0 8px 16px rgb(0 0 0 / 5%);
+}
+
+.circle:hover {
+  box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
+  transform: scale(1.02);
+}
+
+.circle:active {
+  transform: scale(1);
+  box-shadow: 3px 2px 22px 1px rgb(0 0 0 / 24%);
 }
