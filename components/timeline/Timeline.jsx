@@ -1,5 +1,5 @@
 import styles from './Timeline.module.css'
-import TitleIcon from '../core/button/TitleIcon'
+import TitleIcon from '../core/TitleIcon'
 
 const Timeline = () => {
   return (

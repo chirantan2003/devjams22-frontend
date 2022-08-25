@@ -1,4 +1,4 @@
-import TitleIcon from '../core/button/TitleIcon'
+import TitleIcon from '../core/TitleIcon'
 import Cards from './Card'
 import styles from './Speakers.module.css'
 

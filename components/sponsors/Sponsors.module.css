@@ -1,5 +1,5 @@
 .outer {
-  padding: 5rem;
+  padding: 4rem;
 }
 
 .img {
@@ -7,4 +7,13 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 5rem;
+}
+
+.circle {
+  border: 0.5rem solid white;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  height: 9rem;
+  width: 9rem;
 }
