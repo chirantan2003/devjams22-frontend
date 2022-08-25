@@ -5,7 +5,7 @@ const Register = () => {
   return (
     <div className='lightbg register'>
       <div>
-        <h2>Haven't Registered yet?</h2>
+        <h2>Haven&rsquo;t Registered yet?</h2>
         <h3>What are you waiting for?</h3>
         <Button />
       </div>
