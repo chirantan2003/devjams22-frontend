@@ -2,10 +2,23 @@ import styles from './About.module.css'
 import Image from 'next/image'
 
 const About = () => {
+  const vit =
+    'https://www.google.com/maps/place/Vellore+Institute+of+Technology/@12.9692232,79.1537449,17z/data=!3m1!4b1!4m5!3m4!1s0x3bad479f0ccbe067:0xfef222e5f36ecdeb!8m2!3d12.9692232!4d79.1559336'
   return (
     <div className='about'>
       <div className={styles.outer}>
         <div className={styles.text}>
+          <button className={styles.location}>
+            <a href={vit} target='_blank' rel='noreferrer'>
+              <Image
+                src='/location.svg'
+                height='25'
+                width='18'
+                alt='location'
+              />
+              <p>VIT, Vellore</p>
+            </a>
+          </button>
           <h2>About DevJams&rsquo;22</h2>
           <p>
             DevJams is one of a kind hackathon conducted by Google Developer

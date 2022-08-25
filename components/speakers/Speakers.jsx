@@ -30,7 +30,7 @@ const Speakers = () => {
             name='Riddhi Dutta'
             img='/RiddhiDutta.jpeg'
             color='#34A853'
-            refer='she/her'
+            refer='he/him'
           />
           <Cards
             name='Sudhakar'

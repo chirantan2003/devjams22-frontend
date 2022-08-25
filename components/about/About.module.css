@@ -4,6 +4,27 @@
   margin-bottom: 4rem;
 }
 
+.location {
+  background-color: #fbbc04;
+  border: 1px solid black;
+  border-radius: 94px;
+  padding: 0;
+  padding-right: 0;
+  padding-left: 0.75rem;
+  height: 1.5rem;
+}
+
+.location p {
+  font-size: 1rem;
+  font-family: "Product Sans", sans-serif;
+  font-weight: bold;
+  color: black;
+  line-height: 0.02rem;
+  margin-top: 0;
+  padding: 0 0.7rem;
+  float: right;
+}
+
 .text {
   background-color: var(--white);
   border-radius: 12px;
