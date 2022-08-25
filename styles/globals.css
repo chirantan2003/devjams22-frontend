@@ -93,7 +93,6 @@ a {
 .darkbg {
   background-color: var(--dark);
   padding: 4rem;
-  padding-top: 20rem;
 }
 
 .lightbg {
@@ -113,6 +112,10 @@ a {
   padding-bottom: 15rem;
 }
 
+.speakers {
+  padding-top: 20rem;
+}
+
 .sponsors {
   background-color: #f0c14b;
 }
@@ -120,6 +123,11 @@ a {
 .titleIcon {
   text-align: center;
   line-height: 1rem;
+}
+
+.faq {
+  padding-right: 10rem;
+  padding-left: 10rem;
 }
 
 .register {

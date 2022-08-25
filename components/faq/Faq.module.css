@@ -1,0 +1,64 @@
+.outer {
+  background-color: #18191b;
+  border: 1px solid #393b41;
+  border-radius: 12px;
+}
+
+.outer p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+
+.open {
+  background-color: #18191b;
+  border: 0;
+  font-size: 1rem;
+  font-family: "Product Sans", sans-serif;
+  font-weight: bold;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.open:hover {
+  background-color: #18191b;
+  border: 0;
+}
+
+.open:active {
+  border: 0;
+}
+
+.red {
+  color: var(--red);
+}
+
+.redbg {
+  background-color: #f8a0b3;
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.yellowbg {
+  background-color: #faf9be;
+}
+
+.green {
+  color: var(--green);
+}
+
+.greenbg {
+  background-color: #97f7af;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.bluebg {
+  background-color: #a3daff;
+}

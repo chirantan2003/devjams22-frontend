@@ -4,7 +4,7 @@ import styles from './Speakers.module.css'
 
 const Speakers = () => {
   return (
-    <div className='darkbg'>
+    <div className='darkbg speakers'>
       <TitleIcon title='Past Speakers' img='/speakers.svg' />
       <div className={styles.speakers}>
         <div className={styles.cards}>
