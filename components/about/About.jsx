@@ -50,6 +50,18 @@ const About = () => {
           </p>
         </div>
       </div>
+      <div className={styles.gdsc}>
+        <h2>About GDSC</h2>
+        <p>
+          GDSC VIT powered by Google Developers is a student community at VIT,
+          Vellore. We strive to bring about technological innovations among
+          students and we do so by providing a platform for them to exhibit
+          their talents. We are a group of passionate designers, developers, and
+          managers who work together to bring about collaborative results that
+          better the lives of everyone around us.
+        </p>
+        <Image src='/GDSC.svg' height='325' width='1200' alt='GDSC' />
+      </div>
     </div>
   )
 }

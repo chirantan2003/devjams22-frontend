@@ -21,7 +21,7 @@
 .text p {
   text-align: justify;
   max-width: 90%;
-  color: var(--dark);
+  color: var(--textdark);
   line-height: 130%;
 }
 
@@ -50,4 +50,35 @@
 
 .vit {
   background-color: #fbbc04;
+}
+
+.gdsc {
+  background-color: white;
+  border-radius: 12px;
+  text-align: center;
+  position: absolute;
+  padding: 2rem;
+  margin-right: 6rem;
+  padding-bottom: 0;
+  overflow: visible;
+  z-index: 999;
+  box-shadow:
+    0 1px 1px rgb(0 0 0 / 5%),
+    0 2px 2px rgb(0 0 0 / 5%),
+    0 4px 4px rgb(0 0 0 / 5%),
+    0 6px 8px rgb(0 0 0 / 5%),
+    0 8px 16px rgb(0 0 0 / 5%);
+}
+
+.gdsc h2 {
+  color: var(--dark);
+}
+
+.gdsc p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.99rem;
+  color: var(--textdark);
+  margin: auto;
+  max-width: 70%;
+  line-height: 130%;
 }
