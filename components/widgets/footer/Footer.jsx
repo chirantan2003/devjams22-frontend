@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import styles from './Footer.module.css'
 
 const Footer = () => {
@@ -33,49 +32,57 @@ const Footer = () => {
             </div>
 
             <div className={styles.social}>
-              <Link href='/'>
-                <a>
-                  <Image
-                    src='/instagram.svg'
-                    height='25'
-                    width='25'
-                    alt='instagram'
-                  />
-                </a>
-              </Link>
+              <a
+                href='https://instagram.com/gdscvitvellore'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <Image
+                  src='/instagram.svg'
+                  height='25'
+                  width='25'
+                  alt='instagram'
+                />
+              </a>
 
-              <Link href='/'>
-                <a>
-                  <Image
-                    src='/twitter.svg'
-                    height='25'
-                    width='25'
-                    alt='twitter'
-                  />
-                </a>
-              </Link>
+              <a
+                href='https://twitter.com/gdscvit'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <Image
+                  src='/twitter.svg'
+                  height='25'
+                  width='25'
+                  alt='twitter'
+                />
+              </a>
 
-              <Link href='/'>
-                <a>
-                  <Image
-                    src='/linkedin.svg'
-                    height='25'
-                    width='25'
-                    alt='linkedin'
-                  />
-                </a>
-              </Link>
+              <a
+                href='https://www.linkedin.com/company/dscvit'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <Image
+                  src='/linkedin.svg'
+                  height='25'
+                  width='25'
+                  alt='linkedin'
+                />
+              </a>
 
-              <Link href='/'>
-                <a>
-                  <Image
-                    src='/facebook.svg'
-                    height='25'
-                    width='25'
-                    alt='facebook'
-                  />
-                </a>
-              </Link>
+              <a
+                href='https://facebook.com/gdscvitvellore'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <Image
+                  src='/facebook.svg'
+                  height='25'
+                  width='25'
+                  alt='facebook'
+                />
+              </a>
             </div>
           </div>
         </div>
