@@ -194,6 +194,11 @@ p {
     padding-right: 0.5rem;
   }
 
+  .lightbg {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .hero {
     flex-direction: column-reverse;
     max-height: 100vh;
@@ -214,6 +219,7 @@ p {
   }
 
   .register {
+    padding: 1rem;
     flex-direction: column-reverse;
   }
 
