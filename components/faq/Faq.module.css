@@ -1,12 +1,12 @@
 .outer {
   background-color: #18191b;
-  border: 1px solid #393b41;
-  border-radius: 12px;
+  border: 1px solid #393B41;
 }
 
 .outer p {
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;
+  border: 0;
   line-height: 1.3rem;
   padding-left: 1rem;
   padding-right: 3rem;

@@ -12,7 +12,7 @@ const Faq = () => {
           <>
             <Accordion
               key={props.key}
-              variant='contained'
+              variant='filled'
               radius='md'
               defaultValue='customization'
               className={styles.outer}
