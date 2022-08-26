@@ -204,6 +204,10 @@ p {
     padding-bottom: 20rem;
   }
 
+  .titleIcon {
+    line-height: 2.25rem;
+  }
+
   .footer {
     min-height: 120vh;
   }
