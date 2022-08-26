@@ -16,6 +16,13 @@ const Introducing = (props) => {
             padding: 0 0.7rem;
             margin-bottom: 1rem;
           }
+
+          @media (max-width: 760px) {
+            .outer {
+              margin: auto;
+              margin-bottom: 1rem;
+            }
+          }
         `}
       </style>
     </div>

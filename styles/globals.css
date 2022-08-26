@@ -185,13 +185,26 @@ p {
   font-family: "Work Sans", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
+@media (max-width: 760px) {
+  /* html {
     color-scheme: dark;
-  }
+  } */
 
   body {
-    color: black;
-    background: white;
+    font-size: 14px;
+  }
+
+  .darkbg {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .about {
+    padding: 1rem;
+    padding-bottom: 20rem;
+  }
+
+  .footer {
+    min-height: 120vh;
   }
 }

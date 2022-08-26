@@ -19,7 +19,7 @@
 }
 
 .content {
-  max-width: 65%;
+  max-width: 95%;
   overflow-wrap: break-word;
 }
 
@@ -44,8 +44,38 @@
 .image {
   border-radius: 50%;
   position: relative;
+  float: right;
   overflow: hidden;
   height: 9rem;
   width: 9rem;
   margin-top: -1rem;
+}
+
+@media (max-width: 760px) {
+  .outer {
+    width: 12rem;
+  }
+
+  .inner {
+    display: block;
+    padding-top: 1rem;
+  }
+
+  .content h1 {
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+
+  .content h3 {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .image {
+    height: 5rem;
+    width: 5rem;
+    float: none;
+    margin: auto;
+  }
 }
