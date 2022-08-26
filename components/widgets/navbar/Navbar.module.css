@@ -33,3 +33,9 @@
   text-underline-offset: 1.5rem;
   text-decoration-thickness: 0.25rem;
 }
+
+@media (max-width: 760px) {
+  .navright {
+    display: none;
+  }
+}
