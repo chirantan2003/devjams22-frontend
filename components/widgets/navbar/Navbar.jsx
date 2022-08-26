@@ -18,9 +18,9 @@ const Navbar = () => {
           {' '}
           <li className={styles.navitem}>Home</li>
         </a>
-        <a href='#gdsc' className={styles.navitem}>
+        <a href='#about' className={styles.navitem}>
           {' '}
-          <li className={styles.navitem}>About GDSC</li>
+          <li className={styles.navitem}>About</li>
         </a>
         <a href='#timeline' className={styles.navitem}>
           {' '}

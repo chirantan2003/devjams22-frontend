@@ -5,7 +5,7 @@ const About = () => {
   const vit =
     'https://www.google.com/maps/place/Vellore+Institute+of+Technology/@12.9692232,79.1537449,17z/data=!3m1!4b1!4m5!3m4!1s0x3bad479f0ccbe067:0xfef222e5f36ecdeb!8m2!3d12.9692232!4d79.1559336'
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className={styles.outer}>
         <div className={styles.text}>
           <button className={styles.location}>
@@ -63,7 +63,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className={styles.gdsc} id='gdsc'>
+      <div className={styles.gdsc}>
         <h2>About GDSC</h2>
         <p>
           GDSC VIT powered by Google Developers is a student community at VIT,
