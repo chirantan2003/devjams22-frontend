@@ -5,7 +5,7 @@ import Baner from './Baner'
 
 const Faq = () => {
   return (
-    <div className='darkbg faq'>
+    <div className='darkbg faq' id='faq'>
       <h1>FAQs</h1>
       {faq.map((props) => {
         return (

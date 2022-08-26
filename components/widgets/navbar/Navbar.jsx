@@ -26,7 +26,7 @@ const Navbar = () => {
           {' '}
           <li className={styles.navitem}>Timeline</li>
         </a>
-        <a href='#' className={styles.navitem}>
+        <a href='#faq' className={styles.navitem}>
           {' '}
           <li className={styles.navitem}>FAQs</li>
         </a>
