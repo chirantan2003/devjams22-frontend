@@ -186,10 +186,6 @@ p {
 }
 
 @media (max-width: 760px) {
-  /* html {
-    color-scheme: dark;
-  } */
-
   body {
     font-size: 14px;
   }
@@ -197,6 +193,11 @@ p {
   .darkbg {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    max-height: 100vh;
   }
 
   .about {

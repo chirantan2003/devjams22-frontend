@@ -58,8 +58,8 @@
 
 .img {
   background-color: #f2b3b9;
-  position: relative;
   border-radius: 12px;
+  position: relative;
   width: 40vw;
   min-height: 60vh;
   box-shadow:
