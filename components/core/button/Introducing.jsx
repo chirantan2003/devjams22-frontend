@@ -21,6 +21,7 @@ const Introducing = (props) => {
             .outer {
               margin: auto;
               margin-bottom: 1rem;
+              font-size: 0.5rem;
             }
           }
         `}

@@ -61,9 +61,13 @@
     padding-top: 1rem;
   }
 
+  .content {
+    max-width: 100vh;
+  }
+
   .content h1 {
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
     text-align: center;
   }
 
