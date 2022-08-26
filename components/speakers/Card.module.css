@@ -35,6 +35,7 @@
 .content h3 {
   font-family: "Product Sans", sans-serif;
   font-size: 1.25rem;
+  color: var(--textdark);
   font-weight: bold;
   font-style: normal;
   margin-bottom: 0;
