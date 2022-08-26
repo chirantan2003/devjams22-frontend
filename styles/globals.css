@@ -213,6 +213,10 @@ p {
     font-size: 2.5rem;
   }
 
+  .register {
+    flex-direction: column-reverse;
+  }
+
   .footer {
     min-height: min-content;
   }
