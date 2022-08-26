@@ -57,7 +57,13 @@
     display: block;
   }
 
+  .content {
+    padding: 2rem 1rem;
+    padding-bottom: 0;
+  }
+
   .content h1 {
+    font-size: 2.5rem;
     line-height: normal;
   }
 
@@ -65,10 +71,17 @@
     line-height: normal;
   }
 
-  .image {
-    height: auto;
+  .social {
     margin: auto;
-    width: 60vw;
+    height: auto;
+    width: 75vw;
+    padding: 1.5rem 0;
+  }
+
+  .image {
+    height: 0;
+    margin: auto;
+    width: 0;
     float: top;
   }
 }

@@ -152,7 +152,7 @@ a {
   background-color: #202124;
   font-weight: 400;
   color: var(--white);
-  height: 100vh;
+  min-height: 100vh;
   padding-bottom: 0.5rem;
 }
 
@@ -210,6 +210,6 @@ p {
   }
 
   .footer {
-    min-height: 120vh;
+    min-height: min-content;
   }
 }
