@@ -30,7 +30,7 @@ const Faq = () => {
       })}
 
       <Accordion
-        variant='contained'
+        variant='filled'
         radius='md'
         defaultValue='customization'
         className={styles.outer}
