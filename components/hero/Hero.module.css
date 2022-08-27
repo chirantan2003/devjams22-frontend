@@ -24,7 +24,7 @@
   width: 35vw;
 }
 
-@media (max-width: 1150px) and (min-width: 551px) {
+@media (max-width: 1150px) and (min-width: 501px) {
   .img {
     width: 100vw;
   }
@@ -40,10 +40,11 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 500px) {
   .img {
     height: auto;
     width: 100vw;
+    margin-bottom: 2rem;
   }
 
   .text {
