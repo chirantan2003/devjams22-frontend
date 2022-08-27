@@ -12,7 +12,12 @@ const Footer = () => {
             <h3>Point of Contact</h3>
             <div className={styles.contact}>
               <Image src='/mail.svg' height='20' width='20' alt='mail' />
-              <h4>chanakyavkapoor@gmail.com</h4>
+              <a
+                className='text-sm sm:text-md hover:text-jams_blue'
+                href='mailto:chanakyavkapoor@gmail.com'
+              >
+                <h4>chanakyavkapoor@gmail.com</h4>
+              </a>
             </div>
             <div className={styles.contact}>
               <Image src='/phone.svg' height='20' width='20' alt='phone' />
@@ -24,7 +29,12 @@ const Footer = () => {
             <h3>Point of Contact</h3>
             <div className={styles.contact}>
               <Image src='/mail.svg' height='20' width='20' alt='mail' />
-              <h4>shresthtiwary11@gmail.com</h4>
+              <a
+                className='text-sm sm:text-md hover:text-jams_blue'
+                href='shresthtiwary11@gmail.com'
+              >
+                <h4>shresthtiwary11@gmail.com</h4>
+              </a>
             </div>
             <div className={styles.contact}>
               <Image src='/phone.svg' height='20' width='20' alt='phone' />
