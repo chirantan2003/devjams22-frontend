@@ -29,3 +29,10 @@
   transform: scale(1);
   box-shadow: 3px 2px 22px 1px rgb(0 0 0 / 24%);
 }
+
+@media (max-width: 760px) {
+  .button:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
