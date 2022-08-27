@@ -28,7 +28,7 @@ Clone the repository and run
 npm install
 ```
 
-After installing the node modules
+After installing the modules
 
 ```bash
 npm start
