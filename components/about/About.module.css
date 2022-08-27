@@ -111,20 +111,31 @@
     gap: 1rem;
   }
 
+  .vitouter {
+    flex-direction: column;
+  }
+
   .text {
     max-width: 100vw;
+    min-height: auto;
   }
 
   .text p {
-    line-height: 1.15rem;
+    line-height: 1rem;
   }
 
-  .right {
-    margin-top: -2rem;
+
+  .text h2 {
+    font-size: 1.5rem;
   }
 
   .location p {
+    font-size: 0.75rem;
     margin-top: 0.2rem;
+  }
+
+  .right p {
+    max-width: 95%;
   }
 
   .img {
@@ -135,5 +146,15 @@
 
   .gdsc {
     width: 90vw;
+  }
+
+  .gdsc h2 {
+    font-size: 1.5rem;
+  }
+
+  .gdsc p {
+    font-size: 0.78rem;
+    line-height: 1rem;
+    max-width: 90%;
   }
 }

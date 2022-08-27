@@ -206,12 +206,15 @@ p {
 
   .about {
     padding: 1rem;
-    padding-bottom: 20rem;
+    padding-bottom: 12rem;
+  }
+
+  .speakers {
+    padding-top: 12rem;
   }
 
   .titleIcon {
     margin-top: 1rem;
-    line-height: 2.25rem;
   }
 
   h1 {

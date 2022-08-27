@@ -42,7 +42,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className={styles.outer}>
+      <div className={`${styles.outer} ${styles.vitouter}`}>
         <div className={`${styles.img} ${styles.vit}`}>
           <Image
             src='/aboutVit.svg'
