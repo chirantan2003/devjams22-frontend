@@ -201,7 +201,7 @@ p {
 
   .hero {
     flex-direction: column-reverse;
-    min-height: 100vh;
+    max-height: 100vh;
   }
 
   .about {
@@ -228,5 +228,11 @@ p {
 
   .footer {
     min-height: min-content;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero {
+    min-height: 100vh;
   }
 }
