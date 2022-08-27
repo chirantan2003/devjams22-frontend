@@ -35,4 +35,8 @@
     transform: none;
     box-shadow: none;
   }
+
+  .button:active {
+    transform: scale(0.98);
+  }
 }
