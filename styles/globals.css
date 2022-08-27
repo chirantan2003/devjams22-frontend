@@ -199,11 +199,6 @@ p {
     padding-right: 0.5rem;
   }
 
-  .hero {
-    flex-direction: column-reverse;
-    max-height: 100vh;
-  }
-
   .about {
     padding: 1rem;
     padding-bottom: 12rem;
@@ -233,6 +228,22 @@ p {
 
 @media (max-width: 400px) {
   .hero {
+    flex-direction: column-reverse;
     min-height: 100vh;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 401px) {
+  .hero {
+    flex-direction: column-reverse;
+    max-height: 100vh;
+  }
+}
+
+@media (max-width: 1050px) and (min-width: 501px) {
+  .hero {
+    flex-direction: column-reverse;
+    max-height: 100vh;
+    margin-top: 25vh;
   }
 }

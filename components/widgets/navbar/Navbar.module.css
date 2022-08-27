@@ -34,8 +34,12 @@
   text-decoration-thickness: 0.25rem;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1150px) {
   .navright {
     display: none;
+  }
+
+  .nav {
+    justify-content: center;
   }
 }
