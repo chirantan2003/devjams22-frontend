@@ -105,6 +105,28 @@
   line-height: 130%;
 }
 
+@media (max-width: 1150px) {
+  .outer {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  .vitouter {
+    flex-direction: column;
+  }
+
+  .text {
+    max-width: 100vw;
+    min-height: auto;
+  }
+
+  .img {
+    float: top;
+    width: auto;
+    margin-top: 1rem;
+  }
+}
+
 @media (max-width: 760px) {
   .outer {
     flex-direction: column-reverse;
