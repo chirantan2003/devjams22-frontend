@@ -31,7 +31,7 @@ npm install
 After installing the node modules
 
 ```bash
-npm start
+npm run dev
 ```
 
 ## Contributors
