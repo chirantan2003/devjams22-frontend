@@ -1,6 +1,13 @@
 .outer {
   background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   height: 60vh;
   width: 100%;
+}
+
+.outer h2 {
+  font-weight: normal;
 }
