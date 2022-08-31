@@ -8,6 +8,17 @@
   --green: #34a853;
 }
 
+::-webkit-scrollbar {
+  background-color: transparent;
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+  border-radius: 20px;
+}
+
 @font-face {
   font-family: "Product Sans";
   src: url("/fonts/ProductSans-Regular.ttf");
