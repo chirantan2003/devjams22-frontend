@@ -97,6 +97,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  margin-top: 6rem;
   height: 90vh;
   width: 100%;
 }
@@ -241,6 +242,7 @@ p {
   .hero {
     flex-direction: column-reverse;
     min-height: 100vh;
+    margin-top: 0;
   }
 }
 
@@ -248,6 +250,7 @@ p {
   .hero {
     flex-direction: column-reverse;
     max-height: 100vh;
+    margin-top: 10vh;
   }
 }
 
