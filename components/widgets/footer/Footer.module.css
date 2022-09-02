@@ -12,12 +12,13 @@
 .content h1 {
   font-family: "Product Sans", sans-serif;
   text-align: left;
-  line-height: 7rem;
+  line-height: 5rem;
 }
 
 .content h2 {
   font-family: "Work Sans Medium", sans-serif;
   font-size: 1.75rem;
+  line-height: 2rem;
   color: white;
 }
 
