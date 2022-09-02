@@ -3,13 +3,14 @@
   justify-content: space-between;
   padding: 0.5rem 5rem;
   font-weight: 500;
-  position: relative;
+  position: fixed;
   top: 0;
   background-color: #fbfbfb;
   width: 100%;
   z-index: 9999;
   box-shadow: 5px 5px 15px rgb(0 0 0 / 15%);
-  margin-bottom: 2rem;
+
+  /* margin-bottom: 2rem; */
 }
 
 .navright {
@@ -41,5 +42,7 @@
 
   .nav {
     justify-content: center;
+    position: relative;
+    margin-bottom: 2rem;
   }
 }
