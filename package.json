@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.10.4",
     "@mantine/core": "^5.2.3",
     "@mantine/hooks": "^5.2.3",
     "accordion-js": "^3.3.2",
