@@ -7,7 +7,7 @@ const Speakers = () => {
     <div className='darkbg speakers'>
       <TitleIcon title='Past Speakers' img='/speakers.svg' />
       <div className={styles.speakers}>
-        <div className={styles.cards}>
+        <div className={styles.cards} data-aos='zoom-in'>
           <Cards
             name='Prateek Narang'
             img='/PrateekNarang.jpg'

@@ -1,7 +1,19 @@
 import '../styles/globals.css'
 import Head from 'next/head'
+import { useEffect } from 'react'
+import AOS from 'aos'
+
+import 'aos/dist/aos.css'
 
 function MyApp ({ Component, pageProps }) {
+  useEffect(() => {
+    AOS.init({
+      easing: 'ease-out-sine',
+      once: true,
+      offset: 30,
+      duration: 350
+    })
+  }, [])
   return (
     <>
       <Head>

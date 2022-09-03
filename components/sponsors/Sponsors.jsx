@@ -7,7 +7,7 @@ const Sponsors = () => {
     <div className='lightbg sponsors' id='sponsors'>
       <TitleIcon title='Past Sponsors' img='/sponsors.svg' />
       <div className={styles.outer}>
-        <div className={styles.img}>
+        <div className={styles.img} data-aos='flip-up'>
           <ImageDiv
             name='/spCrowdstrike.png'
             url='https://www.crowdstrike.com/'
