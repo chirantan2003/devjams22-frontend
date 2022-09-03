@@ -27,9 +27,9 @@ const About = () => {
             hackathon focuses on providing students and upcoming entrepreneurs
             with a platform to develop, compete, network and present their ideas
             to solve real-world problems. We have been successfully conducting
-            DevJams (previously known as Devfest) for 5 years now. DevJams’21
-            will be the sixth edition through which we hope to bring innovative
-            minds from all around the globe under one banner.
+            DevJams (previously known as Devfest) for 6 years now. DevJams’22
+            will be the seventh edition through which we hope to bring
+            innovative minds from all around the globe under one banner.
           </p>
         </div>
         <div className={styles.img}>
