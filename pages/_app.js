@@ -11,7 +11,8 @@ function MyApp ({ Component, pageProps }) {
       easing: 'ease-out-sine',
       once: true,
       offset: 30,
-      duration: 350
+      duration: 350,
+      delay: 200
     })
   }, [])
   return (
