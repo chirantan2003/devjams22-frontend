@@ -12,7 +12,7 @@ function MyApp ({ Component, pageProps }) {
         <meta name='theme-color' content='#000000' />
         <meta
           name='keywords'
-          content='DevJams,MLH,VIT,Vellore,Google Developer Student Clubs,GDSC VIT,GDSC,GDG,Google Developers,Google Developers Students Clubs,Hackathon,hackathon 2022,hackathon 2021,Community,hackathon in india,event,india'
+          content="DevJams,MLH,VIT,Vellore,Google Developer Student Club,GDSC VIT,GDSC,GDG,Google Developers,Google Developers Students Clubs,Hackathon,hackathon 2022,Community,hackathon in india,event,india, DevJams'22, DevFest, Hackathon in September, Hackathon in October, Devjams 2022,Hacks, Google hackathon, VIT hackathon, Gravitas hackathon, gravitas"
         />
         <meta property='og:type' content='website' />
         <meta property='og:title' content="DevJams' 22" />
@@ -21,7 +21,7 @@ function MyApp ({ Component, pageProps }) {
           content="Official website for DevJams'22 by GDSC VIT Vellore."
         />
         <meta name='language' content='en' />
-        <meta name='url' content='https://http://devjams.dscvit.com/' />
+        <meta name='url' content='https://devjams.dscvit.com/' />
         <meta name='category' content='Devjams' />
         <meta name='coverage' content='Worldwide' />
         <meta name='copyright' content='GDSC-VIT' />
@@ -43,7 +43,7 @@ function MyApp ({ Component, pageProps }) {
         <meta itemprop='name ' content="DevJams'22, Hackathon by GDSC-VIT" />
         <meta
           name='description'
-          content='A hackathon conducted by GDSC-VIT, that brings together great developers and designers under one roof and pits them against each other in healthy competition.'
+          content='DevJams is one of a kind hackathon conducted by Google Developer Student Clubs VIT every year to encourage tech enthusiasts from across the country to develop their ideas for the future.'
         />
         <meta
           itemprop=' description '
