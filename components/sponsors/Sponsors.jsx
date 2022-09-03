@@ -9,7 +9,7 @@ const Sponsors = () => {
       <div className={styles.outer}>
         <div className={styles.img}>
           <ImageDiv
-            name='/spCrowdstrike.svg'
+            name='/spCrowdstrike.png'
             url='https://www.crowdstrike.com/'
           />
           <ImageDiv name='/spGroww.png' url='https://groww.in/' />
@@ -17,10 +17,7 @@ const Sponsors = () => {
           <ImageDiv name='/spRen.png' url='https://renproject.io/' />
           <ImageDiv name='/spVicara.png' url='https://vicara.co/' />
           <ImageDiv name='/spDeepnote.png' url='https://deepnote.com/' />
-          <ImageDiv
-            name='/spStickermule.svg'
-            url='https://www.stickermule.com/en-in'
-          />
+          <ImageDiv name='/spStickermule.svg' url='https://mule.to/p37s' />
           <ImageDiv
             name='/spDigitalocean.svg'
             url='https://www.digitalocean.com/'

@@ -1,0 +1,8 @@
+{
+    "name": "DevJams' 22",
+    "short_name": "DevJams' 22",
+    "start_url": ".",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "display": "standalone"
+  }
