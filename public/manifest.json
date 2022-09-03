@@ -1,6 +1,7 @@
 {
     "name": "DevJams' 22",
     "short_name": "DevJams' 22",
+    "description": "DevJams is one of a kind hackathon conducted by Google Developer Student Clubs VIT every year to encourage tech enthusiasts from across the country to develop their ideas for the future.",
     "icons":[
         {
         "src":"/android-chrome-192x192.png",
