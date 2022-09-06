@@ -5,7 +5,7 @@ const Button = () => {
     <a target='_blank' href='https://devjams.hackerearth.com/' rel='noreferrer'>
       <button
         className={`${styles.button} ${styles.noselect}`}
-        data-aos='zoom-out-up'
+        data-aos='zoom-in'
         data-aos-delay='900'
       >
         <span className={styles.text}>Register Now</span>

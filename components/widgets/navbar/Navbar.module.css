@@ -13,6 +13,10 @@
   /* margin-bottom: 2rem; */
 }
 
+.logo {
+  width: 100%;
+}
+
 .navright {
   display: flex;
   text-decoration: none;
@@ -41,8 +45,13 @@
   }
 
   .nav {
-    justify-content: center;
+    justify-content: left;
+    padding: 0.5rem 2rem;
     position: relative;
     margin-bottom: 2rem;
+  }
+
+  .logo {
+    width: 50vw;
   }
 }
