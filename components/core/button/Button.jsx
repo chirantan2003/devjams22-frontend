@@ -6,7 +6,7 @@ const Button = () => {
       <button
         className={`${styles.button} ${styles.noselect}`}
         data-aos='zoom-out-up'
-        data-aos-delay='1000'
+        data-aos-delay='900'
       >
         <span className={styles.text}>Register Now</span>
       </button>
