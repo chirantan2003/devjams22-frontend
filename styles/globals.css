@@ -81,6 +81,7 @@ body {
   margin: 0;
   font-family: "Product Sans", sans-serif;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 a {

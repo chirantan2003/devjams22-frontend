@@ -69,7 +69,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className={styles.gdsc} data-aos='flip-up'>
+      <div className={styles.gdsc} data-aos='flip-up' data-aos-duration='400'>
         <h2>About GDSC</h2>
         <p>
           GDSC VIT powered by Google Developers is a student community at VIT,
