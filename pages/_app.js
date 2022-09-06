@@ -85,6 +85,20 @@ function MyApp ({ Component, pageProps }) {
         <link rel='manifest' href='/manifest.json' />
         <title>DevJams'22</title>
       </Head>
+
+      <a
+        id='mlh-trust-badge'
+        className='mlh'
+        href='https://mlh.io/apac?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=blue'
+        target='_blank'
+        rel='noreferrer'
+      >
+        <img
+          src='https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-blue.svg'
+          alt='Major League Hacking 2023 Hackathon Season'
+        />
+      </a>
+
       <Component {...pageProps} />
     </>
   )
