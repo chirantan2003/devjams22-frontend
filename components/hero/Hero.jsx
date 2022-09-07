@@ -5,7 +5,7 @@ import styles from './Hero.module.css'
 const Hero = () => {
   return (
     <div className='hero' id='hero'>
-      <div className={styles.text}>
+      <div className={styles.text} data-aos='zoom-in'>
         <Image src='/devjams.svg' height='100' width='350' alt='Devjams22' />
         <p>
           DevJams is one of a kind hackathon conducted by Google Developer
@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className={styles.img}>
+      <div className={styles.img} data-aos='zoom-out-left' data-aos-delay='500'>
         <Image
           src='/hero.svg'
           layout='fill'

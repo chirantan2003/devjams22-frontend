@@ -4,7 +4,7 @@ import styles from './Footer.module.css'
 const Footer = () => {
   return (
     <div className='footer' id='contacts'>
-      <div className={styles.footer}>
+      <div className={styles.footer} data-aos='fade-right' data-aos-delay='600'>
         <div>
           <div className={styles.content}>
             <h1>Reach out to Us!</h1>

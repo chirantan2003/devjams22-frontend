@@ -40,3 +40,9 @@
     transform: scale(0.98);
   }
 }
+
+@media (max-width: 350px) {
+  .button {
+    padding: 0.5rem 2rem;
+  }
+}

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className='about' id='about'>
       <div className={styles.outer}>
-        <div className={styles.text}>
+        <div className={styles.text} data-aos='fade-up-right'>
           <button className={styles.location}>
             <a href={vit} target='_blank' rel='noreferrer'>
               <Image
@@ -32,7 +32,7 @@ const About = () => {
             innovative minds from all around the globe under one banner.
           </p>
         </div>
-        <div className={styles.img}>
+        <div className={styles.img} data-aos='fade-up-left'>
           <Image
             src='/aboutRight.svg'
             layout='fill'
@@ -43,7 +43,10 @@ const About = () => {
       </div>
 
       <div className={`${styles.outer} ${styles.vitouter}`}>
-        <div className={`${styles.img} ${styles.vit}`}>
+        <div
+          className={`${styles.img} ${styles.vit}`}
+          data-aos='fade-down-right'
+        >
           <Image
             src='/aboutVit.svg'
             layout='fill'
@@ -51,7 +54,10 @@ const About = () => {
             alt='imgRight'
           />
         </div>
-        <div className={`${styles.text} ${styles.right}`}>
+        <div
+          className={`${styles.text} ${styles.right}`}
+          data-aos='fade-down-left'
+        >
           <h2>About Vellore Institute of Technology</h2>
           <p>
             Vellore Institute of Technology, Vellore founded in 1984 is one of
@@ -63,7 +69,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className={styles.gdsc}>
+      <div className={styles.gdsc} data-aos='flip-up' data-aos-duration='400'>
         <h2>About GDSC</h2>
         <p>
           GDSC VIT powered by Google Developers is a student community at VIT,

@@ -9,7 +9,7 @@ const Faq = () => {
       <h1>FAQs</h1>
       {faq.map((props) => {
         return (
-          <>
+          <div data-aos='zoom-in'>
             <Accordion
               key={props.key}
               variant='filled'
@@ -25,56 +25,58 @@ const Faq = () => {
                 />
               </Accordion.Item>
             </Accordion>
-          </>
+          </div>
         )
       })}
 
-      <Accordion
-        variant='filled'
-        radius='md'
-        defaultValue='customization'
-        className={styles.outer}
-      >
-        <Accordion.Item value='flexibility'>
-          <Accordion.Control className={`${styles.open} ${styles.yellow}`}>
-            I still have some doubts regarding the event. How can I get them
-            resolved?
-          </Accordion.Control>
+      <div data-aos='zoom-in'>
+        <Accordion
+          variant='filled'
+          radius='md'
+          defaultValue='customization'
+          className={styles.outer}
+        >
+          <Accordion.Item value='flexibility'>
+            <Accordion.Control className={`${styles.open} ${styles.yellow}`}>
+              I still have some doubts regarding the event. How can I get them
+              resolved?
+            </Accordion.Control>
 
-          <Accordion.Panel className={styles.yellowbg}>
-            <p className='text'>
-              Feel free to ping us on{' '}
-              <u>
-                <a
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  href='https://twitter.com/gdscvit'
-                >
-                  Twitter
-                </a>
-              </u>
-              , on{' '}
-              <u>
-                <a
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  href='https://www.instagram.com/gdscvitvellore/'
-                >
-                  Instagram
-                </a>
-              </u>{' '}
-              or you can mail us at{' '}
-              <u>
-                <a href='mailto:dscvitvellore@gmail.com'>
-                  dscvitvellore@gmail.com
-                </a>
-              </u>{' '}
-              at any time of the day. We will try to respond as soon as
-              possible!
-            </p>
-          </Accordion.Panel>
-        </Accordion.Item>
-      </Accordion>
+            <Accordion.Panel className={styles.yellowbg}>
+              <p className='text'>
+                Feel free to ping us on{' '}
+                <u>
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://twitter.com/gdscvit'
+                  >
+                    Twitter
+                  </a>
+                </u>
+                , on{' '}
+                <u>
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://www.instagram.com/gdscvitvellore/'
+                  >
+                    Instagram
+                  </a>
+                </u>{' '}
+                or you can mail us at{' '}
+                <u>
+                  <a href='mailto:dscvitvellore@gmail.com'>
+                    dscvitvellore@gmail.com
+                  </a>
+                </u>{' '}
+                at any time of the day. We will try to respond as soon as
+                possible!
+              </p>
+            </Accordion.Panel>
+          </Accordion.Item>
+        </Accordion>
+      </div>
     </div>
   )
 }

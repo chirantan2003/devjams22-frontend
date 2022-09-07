@@ -81,6 +81,7 @@ body {
   margin: 0;
   font-family: "Product Sans", sans-serif;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 a {
@@ -92,13 +93,27 @@ a {
   box-sizing: border-box;
 }
 
+.mlh {
+  display: block;
+  max-width: 100px;
+  min-width: 60px;
+  position: fixed;
+  right: 50px;
+  top: 0;
+  width: 10%;
+  z-index: 10000;
+}
+
+.mlh img {
+  width: 100%;
+}
+
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
   margin-top: 6rem;
-  height: 90vh;
   width: 100%;
 }
 
@@ -241,23 +256,19 @@ p {
 @media (max-width: 400px) {
   .hero {
     flex-direction: column-reverse;
-    min-height: 100vh;
-    margin-top: 0;
+    margin-top: -10vh;
   }
 }
 
 @media (max-width: 500px) and (min-width: 401px) {
   .hero {
     flex-direction: column-reverse;
-    max-height: 100vh;
-    margin-top: 10vh;
+    margin-top: -10vh;
   }
 }
 
 @media (max-width: 1050px) and (min-width: 501px) {
   .hero {
     flex-direction: column-reverse;
-    min-height: 100vh;
-    margin-top: 25vh;
   }
 }
