@@ -114,8 +114,6 @@ a {
   justify-content: center;
   gap: 2rem;
   margin-top: 6rem;
-
-  /* height: 90vh; */
   width: 100%;
 }
 
@@ -258,8 +256,6 @@ p {
 @media (max-width: 400px) {
   .hero {
     flex-direction: column-reverse;
-
-    /* height: 100%; */
     margin-top: -10vh;
   }
 }
@@ -267,8 +263,6 @@ p {
 @media (max-width: 500px) and (min-width: 401px) {
   .hero {
     flex-direction: column-reverse;
-
-    /* max-height: 100%; */
     margin-top: -10vh;
   }
 }
@@ -276,9 +270,5 @@ p {
 @media (max-width: 1050px) and (min-width: 501px) {
   .hero {
     flex-direction: column-reverse;
-
-    /* height: 100%; */
-
-    /* margin-top: 25vh; */
   }
 }

@@ -3,8 +3,8 @@ import Button from '../core/button/Button'
 
 const Register = () => {
   return (
-    <div className='lightbg register' data-aos='zoom-in' data-aos-delay='600'>
-      <div>
+    <div className='lightbg register'>
+      <div data-aos='fade-right' data-aos-delay='600'>
         <h2>Haven&rsquo;t Registered yet?</h2>
         <h3>What are you waiting for?</h3>
         <Button />
