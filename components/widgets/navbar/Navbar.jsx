@@ -33,27 +33,39 @@ const Navbar = () => {
       <ul className={styles.navright}>
         <a href='#hero' className={styles.navitem}>
           {' '}
-          <li className={styles.navitem}>Home</li>
+          <div className={styles.item}>
+            <li className={styles.navitem}>Home</li>
+          </div>
         </a>
         <a href='#about' className={styles.navitem}>
           {' '}
-          <li className={styles.navitem}>About</li>
+          <div className={styles.item}>
+            <li className={styles.navitem}>About</li>
+          </div>
         </a>
         <a href='#timeline' className={styles.navitem}>
           {' '}
-          <li className={styles.navitem}>Timeline</li>
+          <div className={styles.item}>
+            <li className={styles.navitem}>Timeline</li>
+          </div>
         </a>
         <a href='#faq' className={styles.navitem}>
           {' '}
-          <li className={styles.navitem}>FAQs</li>
+          <div className={styles.item}>
+            <li className={styles.navitem}>FAQs</li>
+          </div>
         </a>
         <a href='#sponsors' className={styles.navitem}>
           {' '}
-          <li className={styles.navitem}>Sponsors</li>
+          <div className={styles.item}>
+            <li className={styles.navitem}>Sponsors</li>
+          </div>
         </a>
         <a href='#contacts' className={styles.navitem}>
           {' '}
-          <li className={styles.navitem}>Contacts</li>
+          <div className={styles.item}>
+            <li className={styles.navitem}>Contacts</li>
+          </div>
         </a>
       </ul>
     </div>

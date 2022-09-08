@@ -25,6 +25,8 @@
   display: flex;
   text-decoration: none;
   align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-right: 3rem;
   flex-wrap: wrap;
 }
@@ -32,8 +34,11 @@
 .navitem {
   text-decoration: none;
   list-style: none;
-  padding: 0 0.5rem;
   color: var(--dark);
+}
+
+.item {
+  padding: 1rem;
 }
 
 .navitem:hover {
