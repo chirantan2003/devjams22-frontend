@@ -1,9 +1,30 @@
 import Image from 'next/image'
 import styles from './Navbar.module.css'
+import { useState, useEffect } from 'react'
 
 const Navbar = () => {
+  const [hide, setHide] = useState(false)
+  const [lastScrollY, setLastScrollY] = useState(0)
+
+  const controlNavbar = () => {
+    if (window.scrollY > lastScrollY) {
+      setHide(true)
+    } else {
+      setHide(false)
+    }
+    setLastScrollY(window.scrollY)
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', controlNavbar)
+
+    return () => {
+      window.removeEventListener('scroll', controlNavbar)
+    }
+  }, [lastScrollY])
+
   return (
-    <div className={styles.nav}>
+    <div className={`${styles.nav} ${hide && styles.hidden}`}>
       <a href='https://dscvit.com/' target='_blank' rel='noreferrer'>
         <div className={styles.logo}>
           <Image src='/logo.svg' height={50} width={250} alt='logo' />

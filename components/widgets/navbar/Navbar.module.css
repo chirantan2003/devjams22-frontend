@@ -9,8 +9,12 @@
   width: 100%;
   z-index: 9999;
   box-shadow: 5px 5px 15px rgb(0 0 0 / 15%);
+  transition: 0.2s linear;
+}
 
-  /* margin-bottom: 2rem; */
+.hidden {
+  top: -5rem;
+  transition: 0.3s linear;
 }
 
 .logo {
