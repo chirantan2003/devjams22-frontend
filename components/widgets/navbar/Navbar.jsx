@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './Navbar.module.css'
 import { useState, useEffect } from 'react'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [hide, setHide] = useState(false)
@@ -31,42 +32,46 @@ const Navbar = () => {
         </div>
       </a>
       <ul className={styles.navright}>
-        <a href='#hero' className={styles.navitem}>
+        <Link to='hero' spy smooth duration={500}>
           {' '}
           <div className={styles.item}>
             <li className={styles.navitem}>Home</li>
           </div>
-        </a>
-        <a href='#about' className={styles.navitem}>
+        </Link>
+        <Link to='about' spy smooth duration={500}>
           {' '}
           <div className={styles.item}>
             <li className={styles.navitem}>About</li>
           </div>
-        </a>
-        <a href='#timeline' className={styles.navitem}>
+        </Link>
+
+        <Link to='timeline' spy smooth duration={500}>
           {' '}
           <div className={styles.item}>
             <li className={styles.navitem}>Timeline</li>
           </div>
-        </a>
-        <a href='#faq' className={styles.navitem}>
+        </Link>
+
+        <Link to='faq' spy smooth duration={500}>
           {' '}
           <div className={styles.item}>
             <li className={styles.navitem}>FAQs</li>
           </div>
-        </a>
-        <a href='#sponsors' className={styles.navitem}>
+        </Link>
+
+        <Link to='sponsors' spy smooth duration={500}>
           {' '}
           <div className={styles.item}>
             <li className={styles.navitem}>Sponsors</li>
           </div>
-        </a>
-        <a href='#contacts' className={styles.navitem}>
+        </Link>
+
+        <Link to='contacts' spy smooth duration={500}>
           {' '}
           <div className={styles.item}>
             <li className={styles.navitem}>Contacts</li>
           </div>
-        </a>
+        </Link>
       </ul>
     </div>
   )

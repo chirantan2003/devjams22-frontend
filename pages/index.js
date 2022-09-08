@@ -14,15 +14,15 @@ export default function Home () {
     <>
       <Navbar />
       <div className={styles.container}>
-        <Hero />
-        <About />
+        <Hero id='#hero' />
+        <About id='#about' />
         <Speakers />
-        <Timeline />
-        <Sponsors />
-        <Faq />
+        <Timeline id='#timeline' />
+        <Sponsors id='#sponsors' />
+        <Faq id='#faq' />
         <Register />
       </div>
-      <Footer />
+      <Footer id='#contacts' />
     </>
   )
 }
