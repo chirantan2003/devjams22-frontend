@@ -99,6 +99,16 @@ function MyApp ({ Component, pageProps }) {
         />
       </a>
 
+      <a
+        id='discord'
+        className='discord'
+        href='https://dscv.it/dj22discord'
+        target='_blank'
+        rel='noreferrer'
+      >
+        <img src='discord.svg' alt='Discord' />
+      </a>
+
       <Component {...pageProps} />
     </>
   )

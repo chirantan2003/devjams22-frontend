@@ -56,7 +56,7 @@ const Sponsors = () => {
           <div data-aos='flip-up' data-aos-delay='1750'>
             <ImageDiv name='/spHedera.png' url='https://hedera.com/' />
           </div>
-          <div data-aos='flip-up' data-aos-delay='1750'>
+          <div data-aos='flip-up' data-aos-delay='1200'>
             <ImageDiv name='/spAbinbev.png' url='https://www.ab-inbev.com/' />
           </div>
         </div>
