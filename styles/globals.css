@@ -108,6 +108,24 @@ a {
   width: 100%;
 }
 
+.discord {
+  display: block;
+  min-width: 50px;
+  max-width: 60px;
+  position: fixed;
+  right: 5%;
+  top: 75%;
+  width: 10%;
+  z-index: 10000;
+}
+
+.discord img {
+  background-color: #1d539f;
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -214,6 +232,11 @@ p {
 @media (max-width: 760px) {
   body {
     font-size: 14px;
+  }
+
+  .discord {
+    right: 1%;
+    top: 90%;
   }
 
   .darkbg {

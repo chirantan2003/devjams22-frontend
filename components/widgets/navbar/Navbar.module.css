@@ -9,8 +9,12 @@
   width: 100%;
   z-index: 9999;
   box-shadow: 5px 5px 15px rgb(0 0 0 / 15%);
+  transition: 0.2s linear;
+}
 
-  /* margin-bottom: 2rem; */
+.hidden {
+  top: -5rem;
+  transition: 0.3s linear;
 }
 
 .logo {
@@ -21,6 +25,8 @@
   display: flex;
   text-decoration: none;
   align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-right: 3rem;
   flex-wrap: wrap;
 }
@@ -28,15 +34,23 @@
 .navitem {
   text-decoration: none;
   list-style: none;
-  padding: 0 0.5rem;
   color: var(--dark);
 }
 
-.navitem:hover {
+.item {
+  padding: 1rem;
+}
+
+.item:hover {
   color: var(--blue);
   text-decoration: underline;
   text-underline-offset: 1.5rem;
   text-decoration-thickness: 0.25rem;
+  cursor: pointer;
+}
+
+.navitem:hover {
+  color: var(--blue);
 }
 
 @media (max-width: 1150px) {
