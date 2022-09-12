@@ -31,7 +31,7 @@ const Footer = () => {
               <Image src='/mail.svg' height='20' width='20' alt='mail' />
               <a
                 className='text-sm sm:text-md hover:text-jams_blue'
-                href='shresthtiwary11@gmail.com'
+                href='mailto:shresthtiwary11@gmail.com'
               >
                 <h4>shresthtiwary11@gmail.com</h4>
               </a>
