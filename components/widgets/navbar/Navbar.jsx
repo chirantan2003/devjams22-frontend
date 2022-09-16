@@ -52,17 +52,17 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <Link to='faq' spy smooth duration={500}>
-          {' '}
-          <div className={styles.item}>
-            <li className={styles.navitem}>FAQs</li>
-          </div>
-        </Link>
-
         <Link to='sponsors' spy smooth duration={500}>
           {' '}
           <div className={styles.item}>
             <li className={styles.navitem}>Sponsors</li>
+          </div>
+        </Link>
+
+        <Link to='faq' spy smooth duration={500}>
+          {' '}
+          <div className={styles.item}>
+            <li className={styles.navitem}>FAQs</li>
           </div>
         </Link>
 
