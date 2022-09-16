@@ -1,0 +1,40 @@
+.discord {
+  border-radius: 5px;
+  background-color: #1d539f;
+  height: 3rem;
+  width: 3.25rem;
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+  padding: 0 1px;
+  overflow: hidden;
+  transition: 0.75s;
+  z-index: 10000;
+}
+
+.discord:hover {
+  display: flex;
+  width: 13.5rem;
+}
+
+.open {
+  display: flex;
+  width: 13.5rem;
+}
+
+.discord h1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.discord span {
+  font-weight: normal;
+}
+
+@media (max-width: 760px) {
+  .discord {
+    right: 10px;
+    bottom: 10px;
+  }
+}

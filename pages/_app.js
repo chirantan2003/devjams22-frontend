@@ -2,7 +2,6 @@ import '../styles/globals.css'
 import Head from 'next/head'
 import { useEffect } from 'react'
 import AOS from 'aos'
-
 import 'aos/dist/aos.css'
 
 function MyApp ({ Component, pageProps }) {
@@ -98,17 +97,6 @@ function MyApp ({ Component, pageProps }) {
           alt='Major League Hacking 2023 Hackathon Season'
         />
       </a>
-
-      <a
-        id='discord'
-        className='discord'
-        href='https://dscv.it/dj22discord'
-        target='_blank'
-        rel='noreferrer'
-      >
-        <img src='discord.svg' alt='Discord' />
-      </a>
-
       <Component {...pageProps} />
     </>
   )
