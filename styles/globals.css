@@ -153,11 +153,11 @@ a {
 .about {
   background-color: #f5f5f7;
   padding: 6rem;
-  padding-bottom: 15rem;
+  padding-bottom: 18rem;
 }
 
 .speakers {
-  padding-top: 20rem;
+  padding-top: 25rem;
 }
 
 .sponsors {
@@ -222,7 +222,7 @@ h1 {
 
 h2 {
   font-family: "Product Sans", sans-serif;
-  font-size: 2rem;
+  font-size: 2.75rem;
   font-style: bold;
   color: var(--textdark);
 }
@@ -257,7 +257,7 @@ p {
   }
 
   .speakers {
-    padding-top: 12rem;
+    padding-top: 15rem;
   }
 
   .titleicon {
