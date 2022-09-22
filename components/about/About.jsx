@@ -51,6 +51,7 @@ const About = () => {
             src='/aboutVit.svg'
             layout='fill'
             objectFit='contain'
+            objectPosition='50% 100%'
             alt='imgRight'
           />
         </div>

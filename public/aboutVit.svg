@@ -1,8 +1,5 @@
-<svg width="604" height="492" viewBox="0 0 604 492" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_324_2196" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="604" height="492">
-<rect width="603.355" height="491.506" rx="12" fill="#FBBC04"/>
-</mask>
-<g mask="url(#mask0_324_2196)">
+<svg viewBox="0 0 604 522" fill="none" xmlns="http://www.w3.org/2000/svg">
+
 <path d="M219.09 44L212.685 254.839L195.363 245.954L205.043 57.0246L219.09 44Z" fill="#235BC6" stroke="black" stroke-width="1.5"/>
 <path d="M335.467 318.907L212.685 254.839L219.308 44.3982L307.955 130.445L335.467 318.907Z" fill="#6A9DFF" stroke="black" stroke-width="1.5"/>
 <path d="M282.992 124.366L254.971 99.5803V123.43L269.236 135.121L282.992 124.366Z" fill="#E59100" stroke="black" stroke-width="1.5"/>
@@ -25,5 +22,4 @@
 <path d="M179.57 529.998L195.873 244.266L153.587 267.648L122 529.998H179.57Z" fill="#235BC6" stroke="black" stroke-width="1.5"/>
 <path d="M255 125.338V123L268.756 134.224V137.497L255 125.338Z" fill="#FBBC04" stroke="black" stroke-width="1.5"/>
 <path d="M297.096 129.76C301.069 128.964 304.195 125.844 305 121.875C305.805 125.844 308.931 128.964 312.904 129.76C308.931 130.556 305.805 133.676 305 137.645C304.195 133.676 301.069 130.556 297.096 129.76Z" fill="white" stroke="#1E1E1E"/>
-</g>
 </svg>

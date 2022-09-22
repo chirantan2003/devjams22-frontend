@@ -57,5 +57,5 @@ npm run dev
 </table>
 
 <p align="center">
-	Made with ❤ by <a href="https://dscvit.com">DSC VIT</a>
+	Made with ❤ by <a href="https://dscvit.com">GDSC VIT</a>
 </p>

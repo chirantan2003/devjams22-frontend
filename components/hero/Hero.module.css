@@ -5,8 +5,9 @@
 }
 
 .text p {
+  font-size: 1.1rem;
   font-family: "Work Sans", sans-serif;
-  max-width: 90%;
+  max-width: 92%;
   color: #3a3e41;
   line-height: 1.5rem;
 }
@@ -53,6 +54,7 @@
 
   .text p {
     line-height: 1rem;
+    font-size: 0.8rem;
   }
 
   .button {
