@@ -251,6 +251,11 @@ p {
     margin-top: 1rem;
   }
 
+  .titleicon h1 {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+
   h1 {
     font-size: 2.5rem;
   }
