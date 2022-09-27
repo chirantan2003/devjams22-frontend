@@ -2,7 +2,7 @@
   background-color: var(--white);
   border: 1px solid black;
   border-radius: 7px;
-  min-height: 15rem;
+  min-height: 100%;
   width: 30rem;
   padding: 1.5rem;
   box-shadow:
@@ -19,7 +19,7 @@
 }
 
 .content {
-  max-width: 95%;
+  max-width: 92%;
   overflow-wrap: break-word;
 }
 
@@ -33,13 +33,18 @@
 }
 
 .content h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.content p {
   font-family: "Product Sans", sans-serif;
   font-size: 1.25rem;
   color: var(--textdark);
   font-weight: bold;
   font-style: normal;
   margin-bottom: 0;
-  margin-top: 0.5rem;
+  margin-top: 0;
 }
 
 .image {
@@ -72,7 +77,7 @@
     text-align: center;
   }
 
-  .content h3 {
+  .content p {
     font-size: 0.8rem;
     text-align: center;
   }

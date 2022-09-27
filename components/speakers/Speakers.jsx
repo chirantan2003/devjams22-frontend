@@ -10,34 +10,34 @@ const Speakers = () => {
         <div className={styles.cards}>
           <div data-aos='flip-up' data-aos-delay='300'>
             <Cards
-              name='Prateek Narang'
-              img='/PrateekNarang.jpg'
+              name='Aanshul Sadaria'
+              img='/AanshulSadaria.jfif'
               color='#FBBC04'
-              designation='Founder, Coding Minutes'
+              designation='Software Engineer II \n Google'
             />
           </div>
           <div data-aos='flip-up' data-aos-delay='450'>
             <Cards
-              name='Neeraj Singh'
-              img='/NeerajSingh.jpg'
+              name='Ashwin Goyal'
+              img='/Ashwin.jpeg'
               color='#4285F4'
-              designation='Co-founder and CTO, Groww'
+              designation='Group Product Manager \n Disney+Hotstar'
             />
           </div>
           <div data-aos='flip-up' data-aos-delay='600'>
             <Cards
-              name='Dinesh Punni'
-              img='/DineshPunni.jpeg'
+              name='Chetan Vinchhi'
+              img='/ChetanVinchhi.png'
               color='#EA4335'
-              designation='Founder, Immersive insiders'
+              designation='Managing Director \n Uptycs'
             />
           </div>
           <div data-aos='flip-up' data-aos-delay='750'>
             <Cards
-              name='Riddhi Dutta'
-              img='/RiddhiDutta.jpeg'
+              name='Amit Malik'
+              img='/AmitMalik.png'
               color='#34A853'
-              designation='Software Engineer, Amazon'
+              designation='Principle Researcher \n Uptycs'
             />
           </div>
         </div>
