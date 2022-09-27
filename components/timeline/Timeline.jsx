@@ -7,7 +7,7 @@ const Timeline = () => {
   return (
     <div className='lightbg' id='timeline'>
       <TitleIcon title='Timeline' img='/timeline.svg' />
-      <div className={styles.outer1}>
+      <div className={styles.outer}>
         <Carousel
           height='100%'
           sx={{ flex: 1 }}

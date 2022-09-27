@@ -15,51 +15,54 @@ const Sponsors = () => {
             <ImageDiv name='/spAlgorand.svg' url='https://www.algorand.com/' />
           </div>
           <div data-aos='flip-up' data-aos-delay='600'>
-            <ImageDiv name='/spStickermule.svg' url='https://mule.to/p37s' />
+            <ImageDiv name='/spQuillbot.svg' url='https://quillbot.com/' />
           </div>
           <div data-aos='flip-up' data-aos-delay='750'>
-            <ImageDiv name='/spFossunited.svg' url='https://fossunited.org/' />
+            <ImageDiv name='/spStickermule.svg' url='https://mule.to/p37s' />
           </div>
           <div data-aos='flip-up' data-aos-delay='900'>
+            <ImageDiv name='/spFossunited.svg' url='https://fossunited.org/' />
+          </div>
+          <div data-aos='flip-up' data-aos-delay='1050'>
             <ImageDiv
               name='/spGithub.png'
               url='https://github.com/?src=gdsc-vit-vellore'
             />
           </div>
-          <div data-aos='flip-up' data-aos-delay='1050'>
+          <div data-aos='flip-up' data-aos-delay='1200'>
             <ImageDiv
               name='/spBluelearn.svg'
               url='https://www.bluelearn.in/?src=gdsc-vit-vellore'
             />
           </div>
-          <div data-aos='flip-up' data-aos-delay='1200'>
+          <div data-aos='flip-up' data-aos-delay='1350'>
             <ImageDiv
               name='/spAuth0.png'
               url='https://auth0.com/?src=gdsc-vit-vellore'
             />
           </div>
-          <div data-aos='flip-up' data-aos-delay='1350'>
+          <div data-aos='flip-up' data-aos-delay='1500'>
             <ImageDiv
               name='/spLinode.png'
               url='https://www.linode.com/?src=gdsc-vit-vellore'
             />
           </div>
-          <div data-aos='flip-up' data-aos-delay='1500'>
+          <div data-aos='flip-up' data-aos-delay='1750'>
             <ImageDiv
               name='/spTwillo.svg'
               url='https://www.twilio.com/?src=gdsc-vit-vellore'
             />
           </div>
-          <div data-aos='flip-up' data-aos-delay='1750'>
+          <div data-aos='flip-up' data-aos-delay='2000'>
             <ImageDiv
               name='/spGodaddy.svg'
               url='https://www.godaddy.com/en-in?src=gdsc-vit-vellore'
             />
           </div>
-          <div data-aos='flip-up' data-aos-delay='2000'>
+          <div data-aos='flip-up' data-aos-delay='2150'>
             <ImageDiv name='/spHedera.png' url='https://hedera.com/' />
           </div>
-          <div data-aos='flip-up' data-aos-delay='2150'>
+          <div data-aos='flip-up' data-aos-delay='2300'>
             <ImageDiv name='/spAbinbev.png' url='https://www.ab-inbev.com/' />
           </div>
         </div>
