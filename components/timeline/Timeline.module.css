@@ -1,17 +1,15 @@
-.outer {
-  background-color: var(--white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  margin-top: 2rem;
-  position: relative;
-  height: 100vh;
-  width: 100%;
+.box {
+  width: 200rem;
+  background-color: transparent;
 }
 
-@media (max-width: 760px) {
+.outer {
+  display: flex;
+  height: 100vh;
+}
+
+@media (max-width: 1000px) {
   .outer {
-    height: 60vh;
+    height: 40vh;
   }
 }
