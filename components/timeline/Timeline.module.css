@@ -10,8 +10,18 @@
   width: 100%;
 }
 
-@media (max-width: 760px) {
-  .outer {
-    height: 60vh;
+.box {
+  width: 200rem;
+  background-color: transparent;
+}
+
+.outer1 {
+  display: flex;
+  height: 100vh;
+}
+
+@media (max-width: 1000px) {
+  .outer1 {
+    height: 40vh;
   }
 }
