@@ -9,8 +9,14 @@ const faq = [
   {
     key: 2,
     question: 'Where can I register for DevJams?',
-    answer:
-      'The details for registering for DevJams will be released soon. Stay Tuned!',
+    answer: (
+      <>
+        Sign in and register at &nbsp;
+        <a href='https://devjams.hackerearth.com/' target='_blank' rel='noreferrer'>
+          <u>Devjams Hackerearth</u>
+        </a>
+      </>
+    ),
     color: 'blue'
   },
   {
@@ -34,7 +40,7 @@ const faq = [
     question:
       'I’m interested in participating but I am unable to find a team, what should I do?',
     answer:
-      'You can try finding like minded people on our discord server in the link <>',
+      'We have just the thing for you! Join our discord server and we have specifically dedicated a channel for team building.',
     color: 'yellow'
   },
   {
