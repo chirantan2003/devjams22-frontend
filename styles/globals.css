@@ -1,3 +1,6 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+
 :root {
   --white: #fff;
   --dark: #202124;
