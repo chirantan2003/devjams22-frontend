@@ -9,8 +9,49 @@ const faq = [
   {
     key: 2,
     question: 'Where can I register for DevJams?',
-    answer:
-      'The details for registering for DevJams will be released soon. Stay Tuned!',
+    answer: (
+      <>
+        You can now register for DevJams at &nbsp;
+        <a
+          a
+          href='https://events.vit.ac.in/events/gravitas2022se/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <u>https://events.vit.ac.in/events/gravitas2022se/</u>
+        </a>
+        <br />
+        <br />
+        Once you receive a confirmation email, head over to &nbsp;
+        <a
+          href='https://devjams.hackerearth.com/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <u>Devjams Hackerearth</u>
+        </a>
+        &nbsp; and form your teams and submit ideas before the due date.
+        <br />
+        <br />
+        Make sure you’ve registered for DevJams at &nbsp;
+        <a
+          a
+          href='https://events.vit.ac.in/events/gravitas2022se/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <u>https://events.vit.ac.in/events/gravitas2022se/</u>
+        </a>
+        &nbsp; even if you’ve already registered through &nbsp;
+        <a
+          href='https://devjams.hackerearth.com/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <u>Devjams Hackerearth</u>
+        </a>
+      </>
+    ),
     color: 'blue'
   },
   {
@@ -34,7 +75,7 @@ const faq = [
     question:
       'I’m interested in participating but I am unable to find a team, what should I do?',
     answer:
-      'You can try finding like minded people on our discord server in the link <>',
+      'We have just the thing for you! Join our discord server and we have specifically dedicated a channel for team building.',
     color: 'yellow'
   },
   {
