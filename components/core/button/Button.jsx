@@ -4,7 +4,7 @@ const Button = () => {
   return (
     <a target='_blank' href='https://devjams.hackerearth.com/' rel='noreferrer'>
       <button className={`${styles.button} ${styles.noselect}`}>
-        <span className={styles.text}>Register Now</span>
+        <span className={styles.text}>Registration Closed</span>
       </button>
     </a>
   )
