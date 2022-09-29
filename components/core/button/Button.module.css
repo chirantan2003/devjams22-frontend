@@ -31,6 +31,10 @@
 }
 
 @media (max-width: 760px) {
+  .button {
+    padding: 0.5rem 1rem;
+  }
+
   .button:hover {
     transform: none;
     box-shadow: none;
