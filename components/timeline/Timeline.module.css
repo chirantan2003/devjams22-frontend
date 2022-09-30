@@ -1,6 +1,50 @@
 .box {
   width: 200rem;
   background-color: transparent;
+  box-shadow:
+    0 1px 1px rgb(0 0 0 / 5%),
+    0 2px 2px rgb(0 0 0 / 5%),
+    0 4px 4px rgb(0 0 0 / 5%),
+    0 6px 8px rgb(0 0 0 / 5%),
+    0 8px 16px rgb(0 0 0 / 5%);
+}
+
+.navbutton {
+  background-color: white;
+  opacity: 0.9;
+  border: transparent;
+  border-radius: 50px;
+  font-size: 1rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  cursor: pointer;
+  top: 45%;
+  position: absolute;
+  z-index: 999;
+  box-shadow:
+    0 1px 1px rgb(0 0 0 / 5%),
+    0 2px 2px rgb(0 0 0 / 5%),
+    0 4px 4px rgb(0 0 0 / 5%),
+    0 6px 8px rgb(0 0 0 / 5%),
+    0 8px 16px rgb(0 0 0 / 5%);
+}
+
+.left {
+  left: 5vw;
+}
+
+.right {
+  right: 5vw;
+}
+
+.navbutton:hover {
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
+  transform: scale(1.02);
+}
+
+.navbutton:active {
+  transform: scale(1);
+  box-shadow: 3px 2px 22px 1px rgb(0 0 0 / 24%);
 }
 
 .outer {
@@ -11,5 +55,26 @@
 @media (max-width: 1000px) {
   .outer {
     height: 40vh;
+  }
+
+  .navbutton {
+    height: 2rem !important;
+    width: 2rem !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .navbutton {
+    height: 3rem;
+    width: 3rem;
+    top: 102%;
+  }
+
+  .left {
+    left: 35%;
+  }
+
+  .right {
+    right: 35%;
   }
 }
