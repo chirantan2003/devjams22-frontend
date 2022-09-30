@@ -48,7 +48,6 @@ const Timeline = () => {
         items={images}
         showFullscreenButton={false}
         showPlayButton={false}
-        showBullets
         infinite={false}
         renderLeftNav={renderLeftNav}
         renderRightNav={renderRightNav}
